@@ -4,41 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/Info.plist</key>
-		<data>
-		wNZUrHzv/iZr7wvtfAcOu75x7tY=
-		</data>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/Pods_AppsPanelSDK</key>
-		<data>
-		eilqUSlJkoXGcqoF/ci5PPKoIxw=
-		</data>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		AbYMX+dxDv4eMCeP5RyPbIeQArE=
-		</data>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		TEgRcsF4Eh2KixLzJ8Lga34/4og=
-		</data>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		bYf6iharGrn7MRNp9iuw09z4Gtk=
-		</data>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
 		<key>Headers/AppsPanelSDK.h</key>
 		<data>
 		/h+M7ITecHPmCVFqYVGiKUU4kWM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sZFnvVb2gXSNpOIz6OMpxb6BXtU=
+		1fWWr5HVpJe1ELm7MDX/+MSuY3M=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +18,11 @@
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+rHfiKPZZDqIRgEAXTGSrDFI4VI=
+		BCDYI9het+tRQ5wbh553MbBPTfE=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mA7BZCzUXiWRA2zNtGY/ICqZwjU=
+		4JVos4anjb8ZdaxIw8rvxXLTOV8=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -58,11 +30,11 @@
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		+rHfiKPZZDqIRgEAXTGSrDFI4VI=
+		BCDYI9het+tRQ5wbh553MbBPTfE=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		mA7BZCzUXiWRA2zNtGY/ICqZwjU=
+		4JVos4anjb8ZdaxIw8rvxXLTOV8=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -70,11 +42,11 @@
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fPdJaeahRuuPp6DAYqZkFtTFdow=
+		4ntJf+5P0NOAPBJTT5EFTj4kyF8=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hOucSOEhGlLpHXxu86dc5TcEPro=
+		zpRYw/hgm9ebqUkMp++bgrtL+Ak=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -82,11 +54,11 @@
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		fPdJaeahRuuPp6DAYqZkFtTFdow=
+		4ntJf+5P0NOAPBJTT5EFTj4kyF8=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		hOucSOEhGlLpHXxu86dc5TcEPro=
+		zpRYw/hgm9ebqUkMp++bgrtL+Ak=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,55 +67,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nFlmMe89VRF/TAvm2YlfKf3jCnJuCA11flwlV6u32s8=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/Pods_AppsPanelSDK</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YPJFFIgiKpeT5AfHPk+UEfaOEXL786ZlEOSfnStmBUs=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b1xFk1Hl355FRZUXh4SqtDcUL7B+Vj17XLzU+2B3UOk=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ti/5+b+mnDb0FKsiFEEo2mGE9HtYocWDzslmbTx3leg=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FjV97kegSmDe+BJWd084uiLouQaKcEHZsxB/ORMlYiU=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_AppsPanelSDK.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
 		<key>Headers/AppsPanelSDK.h</key>
 		<dict>
 			<key>hash2</key>
@@ -162,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dZzl0tjsnqpC+yBL6YCFkUWqrFRO2OXKoIWPuMkgxRs=
+			e6pv2QNZEKEmdlwPSjqSyo512HijEsDV+f7SMkZDrEA=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iAHHTx8ntcd/SX4WU0X+LVBdNo91JoSg/Hx9K1pvjN4=
+			q8qwyLsz5XducCs6/8x5nG+CabaUPcOdyzB2akKj2LA=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftdoc</key>
@@ -183,14 +106,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dZzl0tjsnqpC+yBL6YCFkUWqrFRO2OXKoIWPuMkgxRs=
+			e6pv2QNZEKEmdlwPSjqSyo512HijEsDV+f7SMkZDrEA=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iAHHTx8ntcd/SX4WU0X+LVBdNo91JoSg/Hx9K1pvjN4=
+			q8qwyLsz5XducCs6/8x5nG+CabaUPcOdyzB2akKj2LA=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -204,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fSekb+Ggs8fdQ0AU2JiWsNUVeP8CULoizmPgkb1/+qY=
+			UQjY40uSjz7ZKBxN0zjUilUYz4DxfkNJT3EwhYWL+X8=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			px0Jv5KuiLyvX0/XOurGMGW/TgK88jmaSmSwNPtQAao=
+			hwW7s11x3Ol+MoFFyg1BddXJD3CWBmn1Ota6JavtfVg=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -225,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fSekb+Ggs8fdQ0AU2JiWsNUVeP8CULoizmPgkb1/+qY=
+			UQjY40uSjz7ZKBxN0zjUilUYz4DxfkNJT3EwhYWL+X8=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			px0Jv5KuiLyvX0/XOurGMGW/TgK88jmaSmSwNPtQAao=
+			hwW7s11x3Ol+MoFFyg1BddXJD3CWBmn1Ota6JavtfVg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -570,6 +570,7 @@ public struct AuthenticationTokenManager {
   public var currentLocale: Foundation.Locale {
     get
   }
+  public var texts: [AppsPanelSDK.TextCollection.Key : Swift.String]
   public func setLocale(_ locale: Foundation.Locale, default defaultLocale: Foundation.Locale? = nil)
   public func string(forKey key: Swift.String) -> Swift.String
   public func string(forKey key: Swift.String, _ arguments: Swift.CustomStringConvertible...) -> Swift.String
