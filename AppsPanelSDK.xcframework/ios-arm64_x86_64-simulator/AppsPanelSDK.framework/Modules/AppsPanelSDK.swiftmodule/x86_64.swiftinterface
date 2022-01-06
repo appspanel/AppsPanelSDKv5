@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppsPanelSDK
 import Alamofire
 @_exported import AppsPanelSDK
@@ -14,6 +14,7 @@ import SwiftJWT
 import UIKit
 import UserNotifications
 import WebKit
+import _Concurrency
 public struct AnyDecodable : Swift.Decodable {
   public let value: Any
   public init<T>(_ value: T?)
@@ -23,20 +24,20 @@ internal protocol _AnyDecodable {
   var value: Any { get }
   init<T>(_ value: T?)
 }
-extension AnyDecodable : AppsPanelSDK._AnyDecodable {
+extension AppsPanelSDK.AnyDecodable : AppsPanelSDK._AnyDecodable {
 }
-extension _AnyDecodable {
+extension AppsPanelSDK._AnyDecodable {
   public init(from decoder: Swift.Decoder) throws
 }
-extension AnyDecodable : Swift.Equatable {
+extension AppsPanelSDK.AnyDecodable : Swift.Equatable {
   public static func == (lhs: AppsPanelSDK.AnyDecodable, rhs: AppsPanelSDK.AnyDecodable) -> Swift.Bool
 }
-extension AnyDecodable : Swift.CustomStringConvertible {
+extension AppsPanelSDK.AnyDecodable : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
 }
-extension AnyDecodable : Swift.CustomDebugStringConvertible {
+extension AppsPanelSDK.AnyDecodable : Swift.CustomDebugStringConvertible {
   public var debugDescription: Swift.String {
     get
   }
@@ -58,6 +59,10 @@ extension AnyDecodable : Swift.CustomDebugStringConvertible {
   public var deviceIdentifier: Swift.String {
     get
   }
+  public var usesLegacyDeviceIdentifier: Swift.Bool {
+    get
+    set
+  }
   public var configuration: AppsPanelSDK.AppsPanel.Configuration {
     get
   }
@@ -71,7 +76,7 @@ extension AnyDecodable : Swift.CustomDebugStringConvertible {
 public protocol AppsPanelDelegate : AnyObject {
   func appsPanel(_ appsPanel: AppsPanelSDK.AppsPanel, didReceiveRemoteConfiguration remoteConfiguration: AppsPanelSDK.RemoteConfiguration)
 }
-extension AppsPanelDelegate {
+extension AppsPanelSDK.AppsPanelDelegate {
   public func appsPanel(_ appsPanel: AppsPanelSDK.AppsPanel, didReceiveRemoteConfiguration remoteConfiguration: AppsPanelSDK.RemoteConfiguration)
 }
 @_hasMissingDesignatedInitializers public class DocumentHelper {
@@ -125,7 +130,7 @@ public struct TextCollection : Swift.Codable {
 }
 public struct RemoteConfiguration : Swift.Decodable {
   public let appName: Swift.String
-  public let timeout: Swift.Int
+  public let timeout: Foundation.TimeInterval
   public let deviceInfoConfiguration: AppsPanelSDK.RemoteConfiguration.DeviceInfoConfiguration
   public let textManagerConfiguration: AppsPanelSDK.RemoteConfiguration.TextManagerConfiguration
   public let pushNotificationConfiguration: AppsPanelSDK.RemoteConfiguration.PushNotificationConfiguration
@@ -138,7 +143,7 @@ public struct RemoteConfiguration : Swift.Decodable {
   }
   public init(from decoder: Swift.Decoder) throws
 }
-extension RemoteConfiguration {
+extension AppsPanelSDK.RemoteConfiguration {
   public struct DeviceInfoConfiguration : Swift.Codable {
     public let isEnabled: Swift.Bool
     public func encode(to encoder: Swift.Encoder) throws
@@ -207,7 +212,7 @@ public struct Security {
     get
   }
 }
-extension Security {
+extension AppsPanelSDK.Security {
   public struct Options : Swift.OptionSet {
     public typealias RawValue = Swift.Int
     public let rawValue: AppsPanelSDK.Security.Options.RawValue
@@ -220,7 +225,7 @@ extension Security {
     public typealias Element = AppsPanelSDK.Security.Options
   }
 }
-extension Stats {
+extension AppsPanelSDK.Stats {
   public typealias Context = [Swift.String : AppsPanelSDK.AnyCodable]
 }
 public struct PushNotificationUserInfo : Swift.Codable {
@@ -239,10 +244,10 @@ public struct PushNotificationUserInfo : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-extension PushNotificationUserInfo {
+extension AppsPanelSDK.PushNotificationUserInfo {
   public func extractAttachment() -> UserNotifications.UNNotificationAttachment?
 }
-extension AppsPanel {
+extension AppsPanelSDK.AppsPanel {
   public struct Configuration {
     public let appName: Swift.String
     public let appKey: Swift.String
@@ -271,7 +276,7 @@ public struct ImageUpload {
   public init(file: AppsPanelSDK.File, entity: AppsPanelSDK.UploadEntity? = nil, options: AppsPanelSDK.ImageUpload.Options? = nil)
   public init(data: Foundation.Data, entity: AppsPanelSDK.UploadEntity? = nil, options: AppsPanelSDK.ImageUpload.Options? = nil)
 }
-extension ImageUpload {
+extension AppsPanelSDK.ImageUpload {
   public struct Size : Swift.CustomStringConvertible, Swift.LosslessStringConvertible {
     public let width: Swift.Int
     public let height: Swift.Int
@@ -282,7 +287,7 @@ extension ImageUpload {
     public init?(_ description: Swift.String)
   }
 }
-extension ImageUpload {
+extension AppsPanelSDK.ImageUpload {
   public struct Options {
     public let smallSize: AppsPanelSDK.ImageUpload.Size?
     public let mediumSize: AppsPanelSDK.ImageUpload.Size?
@@ -307,6 +312,7 @@ public typealias ImageUploadCompletionHandler = (Swift.Result<AppsPanelSDK.Image
     get
   }
   public var security: AppsPanelSDK.Security
+  public var timeout: Foundation.TimeInterval?
   public var downloadProgress: AppsPanelSDK.DownloadProgressHandler?
   public var error: AppsPanelSDK.RequestError.Cause?
   @discardableResult
@@ -329,6 +335,8 @@ public typealias ImageUploadCompletionHandler = (Swift.Result<AppsPanelSDK.Image
   public func secureData(_ dictionary: [[Swift.String : Any]]) -> AppsPanelSDK.DataRequest
   @discardableResult
   public func useUserToken() -> AppsPanelSDK.DataRequest
+  @discardableResult
+  public func setTimeout(_ timeout: Foundation.TimeInterval) -> AppsPanelSDK.DataRequest
   @discardableResult
   public func downloadProgress(_ progressHandler: @escaping AppsPanelSDK.DownloadProgressHandler) -> AppsPanelSDK.DataRequest
   @discardableResult
@@ -353,7 +361,7 @@ public struct RequestError : Swift.Error {
   public let backendInfo: AppsPanelSDK.BackendErrorInfo?
   public init(request: Foundation.URLRequest?, response: Foundation.HTTPURLResponse?, data: Foundation.Data?, cause: AppsPanelSDK.RequestError.Cause)
 }
-extension RequestError {
+extension AppsPanelSDK.RequestError {
   public enum Cause : Swift.Error {
     case network(error: Swift.Error)
     case invalidURL
@@ -383,7 +391,7 @@ public enum DecryptionError : Swift.Error {
   case invalidData
   case decryptionFailed(error: Swift.Error)
 }
-extension RequestError {
+extension AppsPanelSDK.RequestError {
   public func isURLError(with code: Foundation.URLError.Code) -> Swift.Bool
   public var isNoConnectionError: Swift.Bool {
     get
@@ -414,48 +422,48 @@ internal protocol _AnyEncodable {
   var value: Any { get }
   init<T>(_ value: T?)
 }
-extension AnyEncodable : AppsPanelSDK._AnyEncodable {
+extension AppsPanelSDK.AnyEncodable : AppsPanelSDK._AnyEncodable {
 }
-extension _AnyEncodable {
+extension AppsPanelSDK._AnyEncodable {
   public func encode(to encoder: Swift.Encoder) throws
 }
-extension AnyEncodable : Swift.Equatable {
+extension AppsPanelSDK.AnyEncodable : Swift.Equatable {
   public static func == (lhs: AppsPanelSDK.AnyEncodable, rhs: AppsPanelSDK.AnyEncodable) -> Swift.Bool
 }
-extension AnyEncodable : Swift.CustomStringConvertible {
+extension AppsPanelSDK.AnyEncodable : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
 }
-extension AnyEncodable : Swift.CustomDebugStringConvertible {
+extension AppsPanelSDK.AnyEncodable : Swift.CustomDebugStringConvertible {
   public var debugDescription: Swift.String {
     get
   }
 }
-extension AnyEncodable : Swift.ExpressibleByNilLiteral {
+extension AppsPanelSDK.AnyEncodable : Swift.ExpressibleByNilLiteral {
 }
-extension AnyEncodable : Swift.ExpressibleByBooleanLiteral {
+extension AppsPanelSDK.AnyEncodable : Swift.ExpressibleByBooleanLiteral {
   public typealias BooleanLiteralType = Swift.Bool
 }
-extension AnyEncodable : Swift.ExpressibleByIntegerLiteral {
+extension AppsPanelSDK.AnyEncodable : Swift.ExpressibleByIntegerLiteral {
   public typealias IntegerLiteralType = Swift.Int
 }
-extension AnyEncodable : Swift.ExpressibleByFloatLiteral {
+extension AppsPanelSDK.AnyEncodable : Swift.ExpressibleByFloatLiteral {
   public typealias FloatLiteralType = Swift.Double
 }
-extension AnyEncodable : Swift.ExpressibleByStringLiteral {
+extension AppsPanelSDK.AnyEncodable : Swift.ExpressibleByStringLiteral {
   public typealias ExtendedGraphemeClusterLiteralType = Swift.String
   public typealias StringLiteralType = Swift.String
   public typealias UnicodeScalarLiteralType = Swift.String
 }
-extension AnyEncodable : Swift.ExpressibleByArrayLiteral {
+extension AppsPanelSDK.AnyEncodable : Swift.ExpressibleByArrayLiteral {
   public typealias ArrayLiteralElement = Any
 }
-extension AnyEncodable : Swift.ExpressibleByDictionaryLiteral {
+extension AppsPanelSDK.AnyEncodable : Swift.ExpressibleByDictionaryLiteral {
   public typealias Key = Swift.AnyHashable
   public typealias Value = Any
 }
-extension _AnyEncodable {
+extension AppsPanelSDK._AnyEncodable {
   public init(nilLiteral _: ())
   public init(booleanLiteral value: Swift.Bool)
   public init(integerLiteral value: Swift.Int)
@@ -493,41 +501,41 @@ public struct AnyCodable : Swift.Codable {
   public let value: Any
   public init<T>(_ value: T?)
 }
-extension AnyCodable : AppsPanelSDK._AnyEncodable, AppsPanelSDK._AnyDecodable {
+extension AppsPanelSDK.AnyCodable : AppsPanelSDK._AnyEncodable, AppsPanelSDK._AnyDecodable {
 }
-extension AnyCodable : Swift.Equatable {
+extension AppsPanelSDK.AnyCodable : Swift.Equatable {
   public static func == (lhs: AppsPanelSDK.AnyCodable, rhs: AppsPanelSDK.AnyCodable) -> Swift.Bool
 }
-extension AnyCodable : Swift.CustomStringConvertible {
+extension AppsPanelSDK.AnyCodable : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
 }
-extension AnyCodable : Swift.CustomDebugStringConvertible {
+extension AppsPanelSDK.AnyCodable : Swift.CustomDebugStringConvertible {
   public var debugDescription: Swift.String {
     get
   }
 }
-extension AnyCodable : Swift.ExpressibleByNilLiteral {
+extension AppsPanelSDK.AnyCodable : Swift.ExpressibleByNilLiteral {
 }
-extension AnyCodable : Swift.ExpressibleByBooleanLiteral {
+extension AppsPanelSDK.AnyCodable : Swift.ExpressibleByBooleanLiteral {
   public typealias BooleanLiteralType = Swift.Bool
 }
-extension AnyCodable : Swift.ExpressibleByIntegerLiteral {
+extension AppsPanelSDK.AnyCodable : Swift.ExpressibleByIntegerLiteral {
   public typealias IntegerLiteralType = Swift.Int
 }
-extension AnyCodable : Swift.ExpressibleByFloatLiteral {
+extension AppsPanelSDK.AnyCodable : Swift.ExpressibleByFloatLiteral {
   public typealias FloatLiteralType = Swift.Double
 }
-extension AnyCodable : Swift.ExpressibleByStringLiteral {
+extension AppsPanelSDK.AnyCodable : Swift.ExpressibleByStringLiteral {
   public typealias ExtendedGraphemeClusterLiteralType = Swift.String
   public typealias StringLiteralType = Swift.String
   public typealias UnicodeScalarLiteralType = Swift.String
 }
-extension AnyCodable : Swift.ExpressibleByArrayLiteral {
+extension AppsPanelSDK.AnyCodable : Swift.ExpressibleByArrayLiteral {
   public typealias ArrayLiteralElement = Any
 }
-extension AnyCodable : Swift.ExpressibleByDictionaryLiteral {
+extension AppsPanelSDK.AnyCodable : Swift.ExpressibleByDictionaryLiteral {
   public typealias Key = Swift.AnyHashable
   public typealias Value = Any
 }
@@ -551,7 +559,7 @@ public protocol Endpoint {
   var secureData: Foundation.Data? { get }
   var securityOptions: AppsPanelSDK.Security.Options { get }
 }
-extension Endpoint {
+extension AppsPanelSDK.Endpoint {
   public var parameters: AppsPanelSDK.Parameters? {
     get
   }
@@ -619,7 +627,7 @@ public struct AuthenticationTokenManager {
   public func downloadTexts()
   @objc deinit
 }
-extension TextManager {
+extension AppsPanelSDK.TextManager {
   public enum Error : Swift.Error {
     case bundleFileMissing
     public static func == (a: AppsPanelSDK.TextManager.Error, b: AppsPanelSDK.TextManager.Error) -> Swift.Bool
@@ -658,13 +666,12 @@ public enum HTTPMethod : Swift.String, Swift.Codable {
   }
 }
 public class RequestManager {
-  final public let sessionManager: Alamofire.SessionManager
   public var inhibitsCancellationErrors: Swift.Bool
   public var defaultSecurityOptions: AppsPanelSDK.Security.Options
   public static var `default`: AppsPanelSDK.RequestManager {
     get
   }
-  public init(baseURL: Foundation.URL, configuration: Foundation.URLSessionConfiguration = URLSessionConfiguration.default)
+  public init(baseURL: Foundation.URL)
   @discardableResult
   public func request(_ path: Swift.String, method: AppsPanelSDK.HTTPMethod, parameters: AppsPanelSDK.Parameters? = nil) -> AppsPanelSDK.DataRequest
   @discardableResult

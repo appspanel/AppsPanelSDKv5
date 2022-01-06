@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "AppsPanelSDKv5"
-  s.version       = "5.2.1"
+  s.version       = "5.3.0-beta.1"
   s.summary       = "AppsPanelSDKv5"
   s.homepage      = "https://appspanel.readme.io/docs/ios-getting-started-v5"
   s.license       = { :type => "Copyright", :file => "LICENSE" }
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.resource = 'AppsPanelResources.bundle'
 
   s.frameworks    = 'Foundation', 'UIKit', 'CoreServices', 'CoreTelephony', 'UserNotifications', 'WebKit'
-  s.ios.dependency 'Alamofire', '~> 4.9'
+  s.ios.dependency 'Alamofire', '~> 5.0'
   s.ios.dependency 'SwiftJWT', '~> 3.6.200'
   s.ios.dependency 'KeychainAccess'
 end

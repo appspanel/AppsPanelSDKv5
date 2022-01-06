@@ -10,55 +10,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SVgw0Lp3fKxIr8wMEhjyKU8ixEM=
+		61Sa+eZv9TdR63ZNzMpwDPNiMNU=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PCyB0nO9ProTV8AQdtdQ01iCnqc=
+		oWCl6PQUDajN9T0IO9oUddugSE4=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wdXI6bMSVMsF5T48pYGDibpQ3cc=
+		AitarMImEeEVegRmlW/2U3p/UN4=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M8XaMavEkN8LTWYBs9ZIQL/4nek=
+		1Wh5QDbxdfNw0oYh8hm3398FMhQ=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		PCyB0nO9ProTV8AQdtdQ01iCnqc=
+		oWCl6PQUDajN9T0IO9oUddugSE4=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		wdXI6bMSVMsF5T48pYGDibpQ3cc=
+		AitarMImEeEVegRmlW/2U3p/UN4=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		M8XaMavEkN8LTWYBs9ZIQL/4nek=
+		1Wh5QDbxdfNw0oYh8hm3398FMhQ=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fEVHOzw4biErn6gjLxCAvxtibsA=
+		F4IPSwd33YeKOhH/yjpjkN4g+9U=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Vklc47lQGhQiMeVCPFxQf3RkP+0=
+		c+bKDv8rN8bwpjl5+Pi0hUs6dJA=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uDrIb0GIfQPW45J7e+3R38LY9tM=
+		3OVR9SDBJiJAx6UYOX1lSgprEM0=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		fEVHOzw4biErn6gjLxCAvxtibsA=
+		F4IPSwd33YeKOhH/yjpjkN4g+9U=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		Vklc47lQGhQiMeVCPFxQf3RkP+0=
+		c+bKDv8rN8bwpjl5+Pi0hUs6dJA=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		uDrIb0GIfQPW45J7e+3R38LY9tM=
+		3OVR9SDBJiJAx6UYOX1lSgprEM0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,84 +78,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iQKn6Rx8guRZ4H19Eb3E+o6UTAlCl7cgPIZWV1EfuIU=
+			ehtgnMnw4EuxSPw93edQ2IqzoId8GHJ5NumUr99LGew=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o1zOkC1Gyl065LgeJxgOyKhL64SvfoZQ4HSR294OkKA=
+			c5Ze9WgTcOE+YNrk82gvyx3EDXhgoiwP/VgU1ULbZ6Q=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mxO4PVEIxayZRme/A5mgcwiloaZhHbnkXVKCwacc8gM=
+			zi4mHEKI5At+Wqh/S6/l+p0AVXw7gfoJbBuMNWNrcqs=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iQKn6Rx8guRZ4H19Eb3E+o6UTAlCl7cgPIZWV1EfuIU=
+			ehtgnMnw4EuxSPw93edQ2IqzoId8GHJ5NumUr99LGew=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o1zOkC1Gyl065LgeJxgOyKhL64SvfoZQ4HSR294OkKA=
+			c5Ze9WgTcOE+YNrk82gvyx3EDXhgoiwP/VgU1ULbZ6Q=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mxO4PVEIxayZRme/A5mgcwiloaZhHbnkXVKCwacc8gM=
+			zi4mHEKI5At+Wqh/S6/l+p0AVXw7gfoJbBuMNWNrcqs=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LlXqTA+Qb6rQXtjSxICWbShfUPQUlMQBYF7pVIkuTQU=
+			hsoUS/3go+1g7dBzgeHV8dmGkQ7W+fv5OPNkX/MmBd0=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ge5jtCOZzjxbQ/GRqvE4+MBaUZcTZYDZe3Y2597Pu7M=
+			ZSUurUTmVJsXfO8/Y97aszFBJ5eLH3ZPJexTHHjW8qU=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hpMbo/yChQQH/u65tWDi0mGjJ/ORGAhLBoaKEbGdNTA=
+			1+wV+wXBEnmHvXjX2TZ4ZrQxuqC+KvyqZFl+Y1YA3Ks=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LlXqTA+Qb6rQXtjSxICWbShfUPQUlMQBYF7pVIkuTQU=
+			hsoUS/3go+1g7dBzgeHV8dmGkQ7W+fv5OPNkX/MmBd0=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ge5jtCOZzjxbQ/GRqvE4+MBaUZcTZYDZe3Y2597Pu7M=
+			ZSUurUTmVJsXfO8/Y97aszFBJ5eLH3ZPJexTHHjW8qU=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hpMbo/yChQQH/u65tWDi0mGjJ/ORGAhLBoaKEbGdNTA=
+			1+wV+wXBEnmHvXjX2TZ4ZrQxuqC+KvyqZFl+Y1YA3Ks=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
