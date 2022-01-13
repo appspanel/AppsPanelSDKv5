@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "AppsPanelSDKv5"
-  s.version       = "5.3.0-beta.1"
+  s.version       = "5.3.0-beta.2"
   s.summary       = "AppsPanelSDKv5"
   s.homepage      = "https://appspanel.readme.io/docs/ios-getting-started-v5"
   s.license       = { :type => "Copyright", :file => "LICENSE" }
