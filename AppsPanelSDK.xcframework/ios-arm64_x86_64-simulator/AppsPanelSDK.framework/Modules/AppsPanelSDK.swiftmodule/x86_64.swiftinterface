@@ -651,6 +651,11 @@ public struct FormData {
   public mutating func append(_ array: [Foundation.Data], withName name: Swift.String)
   public mutating func append(_ array: [Swift.String], withName name: Swift.String)
 }
+public struct PushNotificationLegacyUserInfo : Swift.Decodable {
+  public init(from request: UserNotifications.UNNotificationRequest) throws
+  public init(from userInfo: [Swift.String : Any]) throws
+  public init(from decoder: Swift.Decoder) throws
+}
 public typealias Parameters = [Swift.String : Any]
 public typealias Headers = [Swift.String : Swift.String]
 public enum HTTPMethod : Swift.String, Swift.Codable {
