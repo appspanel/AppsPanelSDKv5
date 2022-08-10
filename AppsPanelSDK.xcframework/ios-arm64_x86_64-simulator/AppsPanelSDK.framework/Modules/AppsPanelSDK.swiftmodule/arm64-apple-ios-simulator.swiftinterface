@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppsPanelSDK
 import Alamofire
 @_exported import AppsPanelSDK
@@ -87,9 +87,11 @@ extension AppsPanelSDK.AppsPanelDelegate {
   public static func readValueForKey(_ key: Swift.String, plistName: Swift.String) -> Any?
   @objc deinit
 }
-public struct FileUpload {
+public struct FileUpload : AppsPanelSDK.Upload {
   public let file: AppsPanelSDK.File
   public let entity: AppsPanelSDK.UploadEntity?
+  public var parameters: [Swift.String : Swift.String]
+  public var headers: AppsPanelSDK.Headers
   public init(file: AppsPanelSDK.File, entity: AppsPanelSDK.UploadEntity? = nil)
   public init(data: Foundation.Data, entity: AppsPanelSDK.UploadEntity? = nil)
 }
@@ -269,10 +271,12 @@ public struct UploadedFile : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public struct ImageUpload {
+public struct ImageUpload : AppsPanelSDK.Upload {
   public let file: AppsPanelSDK.File
   public let entity: AppsPanelSDK.UploadEntity?
   public let options: AppsPanelSDK.ImageUpload.Options?
+  public var parameters: [Swift.String : Swift.String]
+  public var headers: AppsPanelSDK.Headers
   public init(file: AppsPanelSDK.File, entity: AppsPanelSDK.UploadEntity? = nil, options: AppsPanelSDK.ImageUpload.Options? = nil)
   public init(data: Foundation.Data, entity: AppsPanelSDK.UploadEntity? = nil, options: AppsPanelSDK.ImageUpload.Options? = nil)
 }
@@ -598,6 +602,10 @@ public struct AuthenticationTokenManager {
   public static func token() -> Swift.String?
   public static func saveToken(_ token: Swift.String) throws
   public static func deleteToken()
+}
+public protocol Upload {
+  var parameters: [Swift.String : Swift.String] { get set }
+  var headers: AppsPanelSDK.Headers { get set }
 }
 @_hasMissingDesignatedInitializers public class TextManager {
   public static let shared: AppsPanelSDK.TextManager
