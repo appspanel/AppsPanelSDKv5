@@ -2501,6 +2501,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppsPanelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4108,6 +4118,66 @@
                 "declKind": "Accessor",
                 "usr": "s:12AppsPanelSDK19RemoteConfigurationV08feedbackE0AC08FeedbackE0VSgvg",
                 "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV08feedbackE0AC08FeedbackE0VSgvg",
+                "moduleName": "AppsPanelSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "versionConfiguration",
+            "printedName": "versionConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppsPanelSDK.RemoteConfiguration.VersionConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VersionConfiguration",
+                    "printedName": "AppsPanelSDK.RemoteConfiguration.VersionConfiguration",
+                    "usr": "s:12AppsPanelSDK19RemoteConfigurationV07VersionE0V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AppsPanelSDK19RemoteConfigurationV07versionE0AC07VersionE0VSgvp",
+            "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV07versionE0AC07VersionE0VSgvp",
+            "moduleName": "AppsPanelSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AppsPanelSDK.RemoteConfiguration.VersionConfiguration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VersionConfiguration",
+                        "printedName": "AppsPanelSDK.RemoteConfiguration.VersionConfiguration",
+                        "usr": "s:12AppsPanelSDK19RemoteConfigurationV07VersionE0V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AppsPanelSDK19RemoteConfigurationV07versionE0AC07VersionE0VSgvg",
+                "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV07versionE0AC07VersionE0VSgvg",
                 "moduleName": "AppsPanelSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6103,6 +6173,176 @@
                 "mangledName": "$sSE"
               }
             ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "VersionConfiguration",
+            "printedName": "VersionConfiguration",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "isEnabled",
+                "printedName": "isEnabled",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12AppsPanelSDK19RemoteConfigurationV07VersionE0V9isEnabledSbvp",
+                "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV07VersionE0V9isEnabledSbvp",
+                "moduleName": "AppsPanelSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12AppsPanelSDK19RemoteConfigurationV07VersionE0V9isEnabledSbvg",
+                    "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV07VersionE0V9isEnabledSbvg",
+                    "moduleName": "AppsPanelSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "delay",
+                "printedName": "delay",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12AppsPanelSDK19RemoteConfigurationV07VersionE0V5delaySivp",
+                "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV07VersionE0V5delaySivp",
+                "moduleName": "AppsPanelSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12AppsPanelSDK19RemoteConfigurationV07VersionE0V5delaySivg",
+                    "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV07VersionE0V5delaySivg",
+                    "moduleName": "AppsPanelSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VersionConfiguration",
+                    "printedName": "AppsPanelSDK.RemoteConfiguration.VersionConfiguration",
+                    "usr": "s:12AppsPanelSDK19RemoteConfigurationV07VersionE0V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12AppsPanelSDK19RemoteConfigurationV07VersionE0V4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV07VersionE0V4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "AppsPanelSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12AppsPanelSDK19RemoteConfigurationV07VersionE0V6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV07VersionE0V6encode2toys7Encoder_p_tKF",
+                "moduleName": "AppsPanelSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12AppsPanelSDK19RemoteConfigurationV07VersionE0V",
+            "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV07VersionE0V",
+            "moduleName": "AppsPanelSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -6120,6 +6360,16 @@
             "usr": "s:Se",
             "mangledName": "$sSe"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppsPanelSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -15410,6 +15660,107 @@
           },
           {
             "kind": "Function",
+            "name": "startDurationKpi",
+            "printedName": "startDurationKpi(tag:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AppsPanelSDK.AnyCodable]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AppsPanelSDK.AnyCodable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCodable",
+                        "printedName": "AppsPanelSDK.AnyCodable",
+                        "usr": "s:12AppsPanelSDK10AnyCodableV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppsPanelSDK12StatsManagerC16startDurationKpi3tag7contextySS_SDySSAA10AnyCodableVGSgtF",
+            "mangledName": "$s12AppsPanelSDK12StatsManagerC16startDurationKpi3tag7contextySS_SDySSAA10AnyCodableVGSgtF",
+            "moduleName": "AppsPanelSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endDurationKpi",
+            "printedName": "endDurationKpi(tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppsPanelSDK12StatsManagerC14endDurationKpi3tagySS_tF",
+            "mangledName": "$s12AppsPanelSDK12StatsManagerC14endDurationKpi3tagySS_tF",
+            "moduleName": "AppsPanelSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endAllDurationKpis",
+            "printedName": "endAllDurationKpis()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppsPanelSDK12StatsManagerC18endAllDurationKpisyyF",
+            "mangledName": "$s12AppsPanelSDK12StatsManagerC18endAllDurationKpisyyF",
+            "moduleName": "AppsPanelSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "logEvent",
             "printedName": "logEvent(_:context:)",
             "children": [
@@ -17359,7 +17710,7 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(environment:)",
+            "printedName": "configure(environment:clientToken:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -17371,11 +17722,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12AppsPanelSDK6LoggerC9configure11environmentySS_tFZ",
-            "mangledName": "$s12AppsPanelSDK6LoggerC9configure11environmentySS_tFZ",
+            "usr": "s:12AppsPanelSDK6LoggerC9configure11environment11clientTokenySS_SStFZ",
+            "mangledName": "$s12AppsPanelSDK6LoggerC9configure11environment11clientTokenySS_SStFZ",
             "moduleName": "AppsPanelSDK",
             "static": true,
             "declAttributes": [
@@ -18865,8 +19222,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "DatadogCore",
+        "printedName": "DatadogCore",
         "declKind": "Import",
         "moduleName": "AppsPanelSDK",
         "declAttributes": [
@@ -18875,8 +19232,8 @@
       },
       {
         "kind": "Import",
-        "name": "Datadog",
-        "printedName": "Datadog",
+        "name": "DatadogLogs",
+        "printedName": "DatadogLogs",
         "declKind": "Import",
         "moduleName": "AppsPanelSDK"
       },
@@ -18946,6 +19303,83 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppsPanelSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VersionManager",
+        "printedName": "VersionManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VersionManager",
+                "printedName": "AppsPanelSDK.VersionManager",
+                "usr": "s:12AppsPanelSDK14VersionManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AppsPanelSDK14VersionManagerC6sharedACvpZ",
+            "mangledName": "$s12AppsPanelSDK14VersionManagerC6sharedACvpZ",
+            "moduleName": "AppsPanelSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VersionManager",
+                    "printedName": "AppsPanelSDK.VersionManager",
+                    "usr": "s:12AppsPanelSDK14VersionManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AppsPanelSDK14VersionManagerC6sharedACvgZ",
+                "mangledName": "$s12AppsPanelSDK14VersionManagerC6sharedACvgZ",
+                "moduleName": "AppsPanelSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AppsPanelSDK14VersionManagerC",
+        "mangledName": "$s12AppsPanelSDK14VersionManagerC",
+        "moduleName": "AppsPanelSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       }
     ],
     "json_format_version": 8
@@ -19843,35 +20277,35 @@
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
       "kind": "StringLiteral",
-      "offset": 5712,
+      "offset": 5878,
       "length": 77,
       "value": "\"Unable to get remote configuration because the SDK has not been configured.\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5900,
+      "offset": 6066,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
       "kind": "StringLiteral",
-      "offset": 6462,
+      "offset": 6628,
       "length": 37,
       "value": "\"No configuration has been provided.\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
       "kind": "StringLiteral",
-      "offset": 6759,
+      "offset": 6925,
       "length": 73,
       "value": "\"You have to configure the Apps Panel SDK before doing anything with it.\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
       "kind": "StringLiteral",
-      "offset": 6920,
+      "offset": 7086,
       "length": 16,
       "value": "\"^[a-z0-9\\-]+$\""
     },
@@ -20704,219 +21138,254 @@
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1235,
+      "offset": 1294,
       "length": 8,
       "value": "\"device\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1235,
+      "offset": 1294,
       "length": 8,
       "value": "\"device\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2473,
+      "offset": 2553,
       "length": 65,
       "value": "\"[Remote Configuration] Log configuration is missing or invalid.\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2746,
+      "offset": 2826,
       "length": 68,
       "value": "\"[Remote Configuration] Dialog configuration is missing or invalid.\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3046,
+      "offset": 3126,
       "length": 74,
       "value": "\"[Remote Configuration] Interstitial configuration is missing or invalid.\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3336,
+      "offset": 3416,
       "length": 68,
       "value": "\"[Remote Configuration] Rating configuration is missing or invalid.\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3628,
+      "offset": 3708,
       "length": 70,
       "value": "\"[Remote Configuration] Feedback configuration is missing or invalid.\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3929,
+      "offset": 3998,
+      "length": 69,
+      "value": "\"[Remote Configuration] Version configuration is missing or invalid.\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 4298,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3929,
+      "offset": 4298,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4197,
+      "offset": 4566,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4197,
+      "offset": 4566,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4438,
+      "offset": 4807,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4438,
+      "offset": 4807,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4853,
+      "offset": 5222,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4900,
+      "offset": 5269,
       "length": 9,
       "value": "\"display\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4947,
+      "offset": 5316,
       "length": 8,
       "value": "\"stream\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4853,
+      "offset": 5222,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4900,
+      "offset": 5269,
       "length": 9,
       "value": "\"display\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4947,
+      "offset": 5316,
       "length": 8,
       "value": "\"stream\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5253,
+      "offset": 5622,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5253,
+      "offset": 5622,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5555,
+      "offset": 5924,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5555,
+      "offset": 5924,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5900,
+      "offset": 6269,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5900,
+      "offset": 6269,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6179,
+      "offset": 6548,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6179,
+      "offset": 6548,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6501,
+      "offset": 6870,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6501,
+      "offset": 6870,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6805,
+      "offset": 7174,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6805,
+      "offset": 7174,
       "length": 8,
       "value": "\"active\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 7425,
+      "length": 8,
+      "value": "\"active\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 7425,
+      "length": 8,
+      "value": "\"active\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/APDurationKpi.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 11,
+      "value": "\"sessionId\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/APDurationKpi.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 11,
+      "value": "\"sessionId\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
@@ -21663,77 +22132,84 @@
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 709,
+      "offset": 726,
       "length": 19,
       "value": "\"sdk\/configuration\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 805,
       "length": 13,
       "value": "\"sdk\/devices\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 842,
+      "offset": 859,
       "length": 11,
       "value": "\"sdk\/texts\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 931,
+      "offset": 948,
       "length": 16,
       "value": "\"sdk\/statistics\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1006,
       "length": 12,
       "value": "\"sdk\/dialog\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 1074,
+      "offset": 1091,
       "length": 12,
       "value": "\"sdk\/rating\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1178,
       "length": 14,
       "value": "\"sdk\/feedback\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 1918,
+      "offset": 1235,
+      "length": 13,
+      "value": "\"sdk\/version\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 2038,
       "length": 8,
       "value": "\"locale\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 2049,
+      "offset": 2169,
       "length": 13,
       "value": "\"campaign_id\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 2449,
+      "offset": 2569,
       "length": 6,
       "value": "\"push\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Router\/WebService.swift",
       "kind": "StringLiteral",
-      "offset": 2660,
+      "offset": 2780,
       "length": 8,
       "value": "\"pushes\""
     },
@@ -23156,7 +23632,7 @@
       "kind": "StringLiteral",
       "offset": 286,
       "length": 7,
-      "value": "\"5.4.0\""
+      "value": "\"5.5.0\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/File.swift",
@@ -23230,120 +23706,176 @@
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "kind": "Dictionary",
+      "offset": 1613,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 2302,
+      "offset": 2960,
+      "length": 40,
+      "value": "\"Error encoding APDurationKpi: \""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2999,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "kind": "Array",
+      "offset": 3191,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3432,
+      "length": 40,
+      "value": "\"Error decoding APDurationKpi: \""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3471,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "kind": "Array",
+      "offset": 3493,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4315,
       "length": 30,
       "value": "\"[Stats] Unable to save a KPI\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 2639,
+      "offset": 4652,
       "length": 34,
       "value": "\"[Stats] Unable to save a session\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "Array",
-      "offset": 3372,
+      "offset": 5385,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "Array",
-      "offset": 3595,
+      "offset": 5608,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3800,
+      "offset": 5813,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4115,
+      "offset": 6128,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5318,
+      "offset": 7641,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 5552,
+      "offset": 7875,
       "length": 33,
       "value": "\"[Stats] Stats successfully sent\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 5647,
+      "offset": 7970,
       "length": 32,
       "value": "\"[Stats] Unabled to sent stats.\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 5703,
+      "offset": 8026,
       "length": 19,
       "value": "\"Underlying error:\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 5852,
+      "offset": 8175,
       "length": 62,
       "value": "\"[Stats] Unabled save back the stats after the request failed\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5974,
+      "offset": 8297,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 7429,
+      "offset": 9927,
       "length": 50,
       "value": "\"[Stats] Unable to save a push notification event\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 7849,
+      "offset": 10376,
       "length": 19,
       "value": "\"AP_STATS_SESSIONS\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 7895,
+      "offset": 10422,
       "length": 15,
       "value": "\"AP_STATS_KPIS\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 7941,
+      "offset": 10472,
+      "length": 18,
+      "value": "\"AP_DURATION_KPIS\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10521,
       "length": 19,
       "value": "\"AP_STATS_REQUESTS\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 8000,
+      "offset": 10580,
       "length": 16,
       "value": "\"AP_STATS_PUSHS\""
     },
@@ -23406,21 +23938,21 @@
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/Stats.swift",
       "kind": "StringLiteral",
-      "offset": 474,
+      "offset": 510,
       "length": 8,
       "value": "\"pushes\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/Stats.swift",
       "kind": "StringLiteral",
-      "offset": 474,
+      "offset": 510,
       "length": 8,
       "value": "\"pushes\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/Stats.swift",
       "kind": "BooleanLiteral",
-      "offset": 763,
+      "offset": 853,
       "length": 5,
       "value": "false"
     },
@@ -24321,13 +24853,6 @@
       "value": "\"end\""
     },
     {
-      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Logger\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 269,
-      "length": 37,
-      "value": "\"pub09aff193d23a51facfe608f6665335ed\""
-    },
-    {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationLegacyUserInfo.swift",
       "kind": "Dictionary",
       "offset": 693,
@@ -25198,35 +25723,28 @@
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Logger\/DatadogLogger.swift",
       "kind": "BooleanLiteral",
-      "offset": 320,
+      "offset": 400,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Logger\/DatadogLogger.swift",
-      "kind": "BooleanLiteral",
-      "offset": 359,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Logger\/DatadogLogger.swift",
       "kind": "StringLiteral",
-      "offset": 822,
+      "offset": 726,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Logger\/DatadogLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1054,
+      "offset": 926,
       "length": 12,
       "value": "\"device_uid\""
     },
     {
       "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Logger\/DatadogLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1033,
       "length": 12,
       "value": "\"device_uid\""
     },
@@ -25411,6 +25929,83 @@
       "offset": 833,
       "length": 8,
       "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 778,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1167,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1471,
+      "length": 53,
+      "value": "\"[Version Manager] Unable to get version. \""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1523,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2442,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2769,
+      "length": 4,
+      "value": "\".0\""
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2823,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2907,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3545,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4014,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Version\/VersionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4177,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
