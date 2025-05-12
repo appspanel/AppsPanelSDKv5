@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "AppsPanelSDKv5"
-  s.version       = "5.5.2"
+  s.version       = "5.6.0"
   s.summary       = "AppsPanelSDKv5"
   s.homepage      = "https://appspanel.readme.io/docs/ios-getting-started-v5"
   s.license       = { :type => "Copyright", :file => "LICENSE" }
@@ -13,9 +13,14 @@ Pod::Spec.new do |s|
   s.resource = 'AppsPanelResources.bundle'
 
   s.frameworks    = 'Foundation', 'UIKit', 'CoreServices', 'CoreTelephony', 'UserNotifications', 'WebKit'
-  s.ios.dependency 'Alamofire', '5.9.1'
+  s.ios.dependency 'Alamofire', '5.10.2'
   s.ios.dependency 'SwiftJWT', '3.6.200'
   s.ios.dependency 'KeychainAccess'
-  s.ios.dependency 'DatadogCore', '2.11.1'
-  s.ios.dependency 'DatadogLogs', '2.11.1'
+  s.ios.dependency 'DatadogCore', '2.26.0'
+  s.ios.dependency 'DatadogLogs', '2.26.0'
+
+  s.subspec 'NotificationService' do |notification|
+    notification.source_files = 'AppsPanelNotificationServiceExtension/**/*.swift'
+    notification.dependency 'AppsPanelSDKv5'
+  end
 end
