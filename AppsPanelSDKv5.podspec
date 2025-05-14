@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Core' do |core|
     core.vendored_frameworks = 'AppsPanelSDK.xcframework'
+    core.preserve_paths = 'AppsPanelSDK.xcframework/**/*'
     core.resource = 'AppsPanelResources.bundle'
     core.frameworks = 'Foundation', 'UIKit', 'CoreServices', 'CoreTelephony', 'UserNotifications', 'WebKit'
     core.ios.dependency 'Alamofire', '5.10.2'
@@ -24,6 +25,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'NotificationService' do |notification|
     notification.vendored_frameworks = 'AppsPanelSDKExtension.xcframework'
+    notification.preserve_paths = 'AppsPanelSDKExtension.xcframework/**/*'
     notification.dependency 'AppsPanelSDKv5/Core'
   end
 end
