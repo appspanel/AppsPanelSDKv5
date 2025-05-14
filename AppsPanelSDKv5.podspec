@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'NotificationService' do |notification|
-    notification.source_files = 'AppsPanelNotificationServiceExtension/**/*.swift'
+    notification.vendored_frameworks = 'AppsPanelSDKExtension.xcframework'
     notification.dependency 'AppsPanelSDKv5/Core'
   end
 end

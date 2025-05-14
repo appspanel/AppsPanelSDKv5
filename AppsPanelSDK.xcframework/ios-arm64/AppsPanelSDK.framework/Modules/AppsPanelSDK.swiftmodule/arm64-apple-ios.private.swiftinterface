@@ -561,13 +561,6 @@ public struct ObjectResponse<T> : AppsPanelSDK.Response where T : Swift.Decodabl
   public func presentInterstitial(from viewController: UIKit.UIViewController)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers open class AppsPanelNotificationServiceExtension : UserNotifications.UNNotificationServiceExtension {
-  open func getAppsPanelConfiguration() -> (appName: Swift.String, appKey: Swift.String, privateKey: Swift.String)?
-  @objc override dynamic open func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
-  @objc override dynamic open func serviceExtensionTimeWillExpire()
-  @objc override dynamic public init()
-  @objc deinit
-}
 public struct AnyCodable : Swift.Codable {
   public let value: Any
   public init<T>(_ value: T?)
