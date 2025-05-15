@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		O1yp54khL9CTfkfoJCHaK3guNsU=
+		RRCMznLGI44mfnwDWYPtrgpSXNc=
 		</data>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		7OUYzyWLfZYHvnBAEM8bNK39clU=
+		R3sl34km2iCVSZ+6tpVmFuVuKuQ=
 		</data>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Z0XIzZQnt92HnKfEdxMhARxh0hw=
+		YeQgtpUo3S0eHS9v6UWwsyX3bgM=
 		</data>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		7OUYzyWLfZYHvnBAEM8bNK39clU=
+		R3sl34km2iCVSZ+6tpVmFuVuKuQ=
 		</data>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		SuHSJro2eHkxRDBVbm1WYo7j1j4=
+		1SpZsbYGn87IuNpUfGLXGCcU+hk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,28 +57,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			esdJCl4YwUTw0H67LQs/bVzkXimfDf1YQ0ota5+zugw=
+			yFN0Jl+Lv8CqrbQXTbWmFinHxwrdjHL6lYIMLFb9Ugo=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zc/47NRHvPCvwZYoisThRBCDmo0qM1AQ5uv/IGzM8GA=
+			+xxqW0rsWoUj0dF25Vw/+DkCflLzMeu6nY7r0dFWv6A=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			esdJCl4YwUTw0H67LQs/bVzkXimfDf1YQ0ota5+zugw=
+			yFN0Jl+Lv8CqrbQXTbWmFinHxwrdjHL6lYIMLFb9Ugo=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JTGzg5hMMprWOPe9FKhl1CPABFrRLVv3rH5qSXWkMDc=
+			WigiYizdbiJF+LaHdvFdFDj+8Zlr59deXDHAa3EOGHU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
