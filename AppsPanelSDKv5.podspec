@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
   
   s.subspec 'Core' do |core|
+    core.platform = :ios, '15.0'
     core.vendored_frameworks = 'AppsPanelSDK.xcframework'
     core.preserve_paths = 'AppsPanelSDK.xcframework/**/*'
     core.resource = 'AppsPanelResources.bundle'
@@ -24,6 +25,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'NotificationService' do |notification|
+    notification.platform = :ios, '15.0'
     notification.vendored_frameworks = 'AppsPanelSDKExtension.xcframework'
     notification.preserve_paths = 'AppsPanelSDKExtension.xcframework/**/*'
     notification.dependency 'AppsPanelSDKv5/Core'
