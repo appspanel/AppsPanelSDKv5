@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "AppsPanelSDKv5"
-  s.version       = "5.6.1"
+  s.version       = "5.6.0"
   s.summary       = "AppsPanelSDKv5"
   s.homepage      = "https://appspanel.readme.io/docs/ios-getting-started-v5"
   s.license       = { :type => "Copyright", :file => "LICENSE" }
@@ -13,10 +13,14 @@ Pod::Spec.new do |s|
   
   s.subspec 'Core' do |core|
     core.platform = :ios, '15.0'
-    core.vendored_frameworks = 'AppsPanelSDK.xcframework'
-    core.preserve_paths = 'AppsPanelSDK.xcframework/**/*'
     core.resource = 'AppsPanelResources.bundle'
     core.frameworks = 'Foundation', 'UIKit', 'CoreServices', 'CoreTelephony', 'UserNotifications', 'WebKit'
+    core.ios.dependency 'Alamofire', '5.10.2'
+    core.ios.dependency 'SwiftJWT', '3.6.200'
+    core.ios.dependency 'BlueRSA', '1.0.200'
+    core.ios.dependency 'KeychainAccess'
+    core.ios.dependency 'DatadogCore', '2.26.0'
+    core.ios.dependency 'DatadogLogs', '2.26.0'
   end
   
   s.subspec 'NotificationService' do |notification|
