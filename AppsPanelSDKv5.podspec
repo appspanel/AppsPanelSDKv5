@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'CoreSources' do |core|
     core.platform = :ios, '15.0'
+    core.module_name = 'AppsPanelSDK'
     core.source_files = 'AppsPanelSDK/**/*.{swift,h,m,mm}'
     core.resource = 'AppsPanelResources.bundle'
     core.frameworks = 'Foundation', 'UIKit', 'CoreServices', 'CoreTelephony', 'UserNotifications', 'WebKit'
