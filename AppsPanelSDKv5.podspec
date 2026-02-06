@@ -24,6 +24,19 @@ Pod::Spec.new do |s|
     core.ios.dependency 'DatadogCore', '2.26.0'
     core.ios.dependency 'DatadogLogs', '2.26.0'
   end
+
+s.subspec 'CoreSources' do |core|
+  core.platform = :ios, '15.0'
+  core.source_files = 'AppsPanelSDK/**/*.{swift,h,m,mm}'
+  core.resource = 'AppsPanelResources.bundle'
+  core.frameworks = 'Foundation', 'UIKit', 'CoreServices', 'CoreTelephony', 'UserNotifications', 'WebKit'
+  core.ios.dependency 'Alamofire', '5.10.2'
+  core.ios.dependency 'SwiftJWT', '3.6.200'
+  core.ios.dependency 'BlueRSA', '1.0.200'
+  core.ios.dependency 'KeychainAccess'
+  core.ios.dependency 'DatadogCore', '2.26.0'
+  core.ios.dependency 'DatadogLogs', '2.26.0'
+end
   
   s.subspec 'NotificationService' do |notification|
     notification.platform = :ios, '15.0'
