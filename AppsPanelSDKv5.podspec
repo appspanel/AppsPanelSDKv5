@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     core.ios.dependency 'DatadogLogs', '2.26.0'
   end
 
-  s.subspec 'CoreSources' do |core|
+  s.subspec 'CoreSources' do |standalone|
       standalone.platform = :ios, '15.0'
       standalone.vendored_frameworks = 'AppsPanelSDK.xcframework'
       standalone.resource = 'AppsPanelResources.bundle'
