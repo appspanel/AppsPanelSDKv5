@@ -26,10 +26,10 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'CoreSources' do |standalone|
-      standalone.platform = :ios, '15.0'
-      standalone.vendored_frameworks = 'AppsPanelSDK.xcframework'
-      standalone.resource = 'AppsPanelResources.bundle'
-      standalone.frameworks = 'Foundation', 'UIKit', 'CoreServices', 'CoreTelephony', 'UserNotifications', 'WebKit'
+    standalone.platform = :ios, '15.0'
+    standalone.vendored_frameworks = 'AppsPanelSDK.xcframework'
+    standalone.resource = 'AppsPanelResources.bundle'
+    standalone.frameworks = 'Foundation', 'UIKit', 'CoreServices', 'CoreTelephony', 'UserNotifications', 'WebKit'
   end
   
   s.subspec 'NotificationService' do |notification|
