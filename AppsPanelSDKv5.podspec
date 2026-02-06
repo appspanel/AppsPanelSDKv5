@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
   
   s.subspec 'Core' do |core|
     core.platform = :ios, '15.0'
+    core.vendored_frameworks = 'AppsPanelSDK.xcframework'
+    core.preserve_paths = 'AppsPanelSDK.xcframework/**/*'
     core.resource = 'AppsPanelResources.bundle'
     core.frameworks = 'Foundation', 'UIKit', 'CoreServices', 'CoreTelephony', 'UserNotifications', 'WebKit'
     core.ios.dependency 'Alamofire', '5.10.2'
