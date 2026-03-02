@@ -10,47 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		m/B2p0xgZ+X4PBeywyiqkW38ssM=
+		2KWRv4R2SUiFM3t/S25mGGl5Xdc=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fKZCPPe9iq3GOyzZt+bF0uqrLgE=
+		J+ALuHIPfESfNjt2sdGfAe45yIU=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bah+M7FwYU+SRMBzHDLzv43KJXI=
+		ZkYukyD3T62cz3em+eh+DQp0egQ=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UfpurY9CH4561I3yuLMoGoOUKnk=
+		X5j09AWvlyUVb9/Kq51xdKeYuPk=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bah+M7FwYU+SRMBzHDLzv43KJXI=
+		ZkYukyD3T62cz3em+eh+DQp0egQ=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pPbRyEmDrUR+y9/CQVPlM9LzVgU=
+		C/aHqfdSmSwTS+CiO5hNljeuKJo=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fKZCPPe9iq3GOyzZt+bF0uqrLgE=
+		J+ALuHIPfESfNjt2sdGfAe45yIU=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TxCvZET29NL8JmfvLtQ7Ey8vN9Y=
+		px4+Vvxl/Wn2B8lfMa/s0cWtUU4=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gS7mL5yasfsJDrraNyJkAo15UgM=
+		popmDJ92npM5sO9CjvJfyVNE5dI=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TxCvZET29NL8JmfvLtQ7Ey8vN9Y=
+		px4+Vvxl/Wn2B8lfMa/s0cWtUU4=
 		</data>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qXUqoSBRdSaFqOjB4AsiQFBcQyU=
+		YKxV4ZiJ66XZiJPZNY5B5KFIyls=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,70 +70,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wa55zddqOptoHGbCJmICvNvD5ANe5PxZsuNBA4GlD+w=
+			XcmSW/BBvhr/xSJF5LfRoeM/fO+dyagidH/tzILa57E=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dQe5sE24Kf/MEzFwmTDTY45DKLw8NnfBrOk6Ca88pBs=
+			NPxeT8Xo0dzOBMSeQ/scar6Sg2krFemVJtE62ervBfo=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gxAEyDTCF1Fe2cUs4CSZUrNXTJNB+UstTExpzt4S8QA=
+			VQ8dCp5OUTaGcn8NSAPKIUw6WlDnR3WQlV0c8UVGsmM=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dQe5sE24Kf/MEzFwmTDTY45DKLw8NnfBrOk6Ca88pBs=
+			NPxeT8Xo0dzOBMSeQ/scar6Sg2krFemVJtE62ervBfo=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N0JgXEojm6vsxP1MhCtkHWdhS0Fl49tZ3Jcc3mclCRo=
+			cvLmPuoAp+aFn/XYW+Ow650UNZqLZwFFrCppJikZA5E=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wa55zddqOptoHGbCJmICvNvD5ANe5PxZsuNBA4GlD+w=
+			XcmSW/BBvhr/xSJF5LfRoeM/fO+dyagidH/tzILa57E=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5cxnRAoQZObXt7MRnbDEMNP9HHFZC8nPa3HIoqvRUg4=
+			Hd7ErK++lNcHq5Svmgg5gq3m5fGYZaCYSppIKl0PH8E=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w7y8dbqtsZfPhknmTtwUji8Lz/wobg5MyhcJIxjKDe4=
+			kG7kRGNXUZ3tj42IobJdL7GtgcwoIQh6FkKFqYMxrIg=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5cxnRAoQZObXt7MRnbDEMNP9HHFZC8nPa3HIoqvRUg4=
+			Hd7ErK++lNcHq5Svmgg5gq3m5fGYZaCYSppIKl0PH8E=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c5psnIPhTLmgPdfbR5/J5fUmwezmj5UP+G3F6Z6mytc=
+			GcjRA8gfUnIPLhHxO0gB5fYTVU5+1MWkTxQnJ/31sVQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

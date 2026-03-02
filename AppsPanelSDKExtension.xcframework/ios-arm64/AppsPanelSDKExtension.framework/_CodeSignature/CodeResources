@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/AppsPanelSDKExtension.h</key>
 		<data>
-		VpvTlTzw0ZGG9erw73VViyZc0w0=
+		YGXahQAWY7KB+zRsu/kBeWuC0V8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RRCMznLGI44mfnwDWYPtrgpSXNc=
+		A602IeUhcTmdzZ+KgA43xnmotVg=
 		</data>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		R3sl34km2iCVSZ+6tpVmFuVuKuQ=
+		kgbgKsZCVUSnGs5VWvPslERf5Lw=
 		</data>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		YeQgtpUo3S0eHS9v6UWwsyX3bgM=
+		L3KBIN9fjJxoldmq4eWMp4LufkU=
 		</data>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		R3sl34km2iCVSZ+6tpVmFuVuKuQ=
+		kgbgKsZCVUSnGs5VWvPslERf5Lw=
 		</data>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1SpZsbYGn87IuNpUfGLXGCcU+hk=
+		gJaCbn9PwLiYzfxD4aka8wfYxHc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MIn50Dp5ADhfAHeoJyNDbudjhL95LrpMbXsjA7/aQFc=
+			4ylkPQaelIJRbpoSMDi4wjOw6hNdG0u7gxyI/lLKLsA=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -57,28 +57,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFN0Jl+Lv8CqrbQXTbWmFinHxwrdjHL6lYIMLFb9Ugo=
+			X8XE+rZNfsdKhwFavyzS56YeO2mKODMzMkJrLsj4aKg=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+xxqW0rsWoUj0dF25Vw/+DkCflLzMeu6nY7r0dFWv6A=
+			Uq6j+xrivixm/hDZJiHslPL/TXRpIUpruDWWdlLzDzU=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFN0Jl+Lv8CqrbQXTbWmFinHxwrdjHL6lYIMLFb9Ugo=
+			X8XE+rZNfsdKhwFavyzS56YeO2mKODMzMkJrLsj4aKg=
 			</data>
 		</dict>
 		<key>Modules/AppsPanelSDKExtension.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WigiYizdbiJF+LaHdvFdFDj+8Zlr59deXDHAa3EOGHU=
+			b3nxzs5pydNuZrQeev6DOT9hpj2x8Q7QJQcLUS7uy6E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

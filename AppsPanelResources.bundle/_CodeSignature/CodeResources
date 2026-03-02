@@ -37,10 +37,6 @@
 	<dict>
 		<key>DefaultRemoteConfiguration.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Z45AQJoBVpzLScCXo6MzeIWR6Vw=
-			</data>
 			<key>hash2</key>
 			<data>
 			EZlJiMbAcmNjbZeD6d004l+O2tEdsv9QwCR3GZXEDsw=
@@ -48,10 +44,6 @@
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fUY6dMZImz6F3tBrtFKaYaZsSlQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			7u90XV2L/pr/ngOzRc4brwX678q982JBsDxLRSprwGY=
@@ -59,10 +51,6 @@
 		</dict>
 		<key>close@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sN/OFvFAbHukTbzbbpak4FWBAMg=
-			</data>
 			<key>hash2</key>
 			<data>
 			TwUUtDF/wu8VPgqd44zmUopO2fwBWOf9sOTX6Ps9g34=
@@ -70,10 +58,6 @@
 		</dict>
 		<key>dropdown@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NsRsMLb1mjhC8vxc8r5MeRReZ28=
-			</data>
 			<key>hash2</key>
 			<data>
 			NwdVMKerxqc2sx6C/vwXscEhdvqKh5Nb554p7R6KSO8=
@@ -81,10 +65,6 @@
 		</dict>
 		<key>navbar_close@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dwp+yXGbEz6c9gE8qoMUo/EIjOc=
-			</data>
 			<key>hash2</key>
 			<data>
 			fPZ6PQ1LWSFXwAV0dEcBJua7JiBI8Eb4zksr6UZ5UaU=
@@ -92,10 +72,6 @@
 		</dict>
 		<key>star_off@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sXHPnuKcWDNkS91YXPalFbxfTY0=
-			</data>
 			<key>hash2</key>
 			<data>
 			nV4H8g9hw7gIeQzz7frV7blpccmLuCDQssBYhVY7qKU=
@@ -103,10 +79,6 @@
 		</dict>
 		<key>star_on@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FFP7OJ/3OAOj0ps1DX/LZgsHBGg=
-			</data>
 			<key>hash2</key>
 			<data>
 			u7flOQ0vr4LkBvKuj0ZsVIbLYVD7b+9ws0RZWXnZmjc=
