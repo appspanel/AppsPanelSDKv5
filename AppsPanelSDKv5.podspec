@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "AppsPanelSDKv5"
-  s.version       = "5.7.0-beta"
+  s.version       = "5.7.0-beta.1"
   s.summary       = "AppsPanelSDKv5"
   s.homepage      = "https://appspanel.readme.io/docs/ios-getting-started-v5"
   s.license       = { :type => "Copyright", :file => "LICENSE" }
@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.platform      = :ios, "15.0"
   s.swift_version = "5.5"
   s.source        = { :git => "https://github.com/appspanel/AppsPanelSDKv5.git", :tag => "#{s.version}"}
-  
+
   s.default_subspec = 'Core'
-  
+
   s.subspec 'Core' do |core|
     core.platform = :ios, '15.0'
     core.vendored_frameworks = 'AppsPanelSDK.xcframework'
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     core.ios.dependency 'DatadogCore', '3.7.0'
     core.ios.dependency 'DatadogLogs', '3.7.0'
   end
-  
+
   s.subspec 'NotificationService' do |notification|
     notification.platform = :ios, '15.0'
     notification.vendored_frameworks = 'AppsPanelSDKExtension.xcframework'

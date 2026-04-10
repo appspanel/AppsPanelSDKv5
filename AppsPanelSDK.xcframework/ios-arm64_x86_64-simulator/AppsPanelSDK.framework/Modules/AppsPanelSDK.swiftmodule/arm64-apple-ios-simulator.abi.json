@@ -235,27 +235,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
             "name": "_AnyDecodable",
             "printedName": "_AnyDecodable",
             "usr": "s:12AppsPanelSDK13_AnyDecodableP",
@@ -263,10 +242,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -277,10 +263,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3073,6 +3073,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Response",
+            "printedName": "Response",
+            "usr": "s:12AppsPanelSDK8ResponseP",
+            "mangledName": "$s12AppsPanelSDK8ResponseP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -3084,13 +3091,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Response",
-            "printedName": "Response",
-            "usr": "s:12AppsPanelSDK8ResponseP",
-            "mangledName": "$s12AppsPanelSDK8ResponseP"
           }
         ]
       },
@@ -3344,13 +3344,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3362,6 +3355,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3816,13 +3816,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3834,6 +3827,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4566,6 +4566,33 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppsPanelSDK19RemoteConfigurationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12AppsPanelSDK19RemoteConfigurationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AppsPanelSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "TypeDecl",
             "name": "DeviceInfoConfiguration",
             "printedName": "DeviceInfoConfiguration",
@@ -4684,13 +4711,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -4702,6 +4722,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -4912,13 +4939,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -4930,6 +4950,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5052,13 +5079,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5070,6 +5090,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5236,13 +5263,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5254,6 +5274,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5508,13 +5535,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5526,6 +5546,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5648,13 +5675,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5666,6 +5686,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5876,13 +5903,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5894,6 +5914,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -6016,13 +6043,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -6034,6 +6054,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -6200,13 +6227,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -6218,6 +6238,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           }
@@ -6239,17 +6266,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7344,17 +7378,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -7610,13 +7644,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7628,6 +7655,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7924,6 +7958,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Response",
+            "printedName": "Response",
+            "usr": "s:12AppsPanelSDK8ResponseP",
+            "mangledName": "$s12AppsPanelSDK8ResponseP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -7935,13 +7976,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Response",
-            "printedName": "Response",
-            "usr": "s:12AppsPanelSDK8ResponseP",
-            "mangledName": "$s12AppsPanelSDK8ResponseP"
           }
         ]
       },
@@ -8063,13 +8097,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8081,6 +8108,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8717,17 +8751,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "CustomStringConvertible",
                 "printedName": "CustomStringConvertible",
                 "usr": "s:s23CustomStringConvertibleP",
                 "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -11848,17 +11882,17 @@
                   },
                   {
                     "kind": "Conformance",
-                    "name": "Escapable",
-                    "printedName": "Escapable",
-                    "usr": "s:s9EscapableP",
-                    "mangledName": "$ss9EscapableP"
-                  },
-                  {
-                    "kind": "Conformance",
                     "name": "Equatable",
                     "printedName": "Equatable",
                     "usr": "s:SQ",
                     "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
                   },
                   {
                     "kind": "Conformance",
@@ -11885,17 +11919,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Error",
                 "printedName": "Error",
                 "usr": "s:s5ErrorP",
                 "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -12112,17 +12146,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -12294,17 +12328,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -12530,13 +12564,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -12548,6 +12575,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12796,17 +12830,44 @@
           },
           {
             "kind": "Conformance",
+            "name": "ExpressibleByDictionaryLiteral",
+            "printedName": "ExpressibleByDictionaryLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Key",
+                "printedName": "Key",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s30ExpressibleByDictionaryLiteralP",
+            "mangledName": "$ss30ExpressibleByDictionaryLiteralP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_AnyEncodable",
-            "printedName": "_AnyEncodable",
-            "usr": "s:12AppsPanelSDK13_AnyEncodableP",
-            "mangledName": "$s12AppsPanelSDK13_AnyEncodableP"
           },
           {
             "kind": "Conformance",
@@ -12991,37 +13052,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "ExpressibleByDictionaryLiteral",
-            "printedName": "ExpressibleByDictionaryLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Key",
-                "printedName": "Key",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Value",
-                "printedName": "Value",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s30ExpressibleByDictionaryLiteralP",
-            "mangledName": "$ss30ExpressibleByDictionaryLiteralP"
+            "name": "_AnyEncodable",
+            "printedName": "_AnyEncodable",
+            "usr": "s:12AppsPanelSDK13_AnyEncodableP",
+            "mangledName": "$s12AppsPanelSDK13_AnyEncodableP"
           }
         ]
       },
@@ -13834,6 +13868,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Response",
+            "printedName": "Response",
+            "usr": "s:12AppsPanelSDK8ResponseP",
+            "mangledName": "$s12AppsPanelSDK8ResponseP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -13845,13 +13886,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Response",
-            "printedName": "Response",
-            "usr": "s:12AppsPanelSDK8ResponseP",
-            "mangledName": "$s12AppsPanelSDK8ResponseP"
           }
         ]
       },
@@ -14101,6 +14135,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Response",
+            "printedName": "Response",
+            "usr": "s:12AppsPanelSDK8ResponseP",
+            "mangledName": "$s12AppsPanelSDK8ResponseP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -14112,13 +14153,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Response",
-            "printedName": "Response",
-            "usr": "s:12AppsPanelSDK8ResponseP",
-            "mangledName": "$s12AppsPanelSDK8ResponseP"
           }
         ]
       },
@@ -14496,17 +14530,44 @@
           },
           {
             "kind": "Conformance",
+            "name": "ExpressibleByDictionaryLiteral",
+            "printedName": "ExpressibleByDictionaryLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Key",
+                "printedName": "Key",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s30ExpressibleByDictionaryLiteralP",
+            "mangledName": "$ss30ExpressibleByDictionaryLiteralP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
           },
           {
             "kind": "Conformance",
@@ -14705,37 +14766,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "ExpressibleByDictionaryLiteral",
-            "printedName": "ExpressibleByDictionaryLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Key",
-                "printedName": "Key",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Value",
-                "printedName": "Value",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s30ExpressibleByDictionaryLiteralP",
-            "mangledName": "$ss30ExpressibleByDictionaryLiteralP"
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -16702,17 +16736,17 @@
                   },
                   {
                     "kind": "Conformance",
-                    "name": "Escapable",
-                    "printedName": "Escapable",
-                    "usr": "s:s9EscapableP",
-                    "mangledName": "$ss9EscapableP"
-                  },
-                  {
-                    "kind": "Conformance",
                     "name": "Equatable",
                     "printedName": "Equatable",
                     "usr": "s:SQ",
                     "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
                   },
                   {
                     "kind": "Conformance",
@@ -16829,13 +16863,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -16847,6 +16874,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           }
@@ -16868,13 +16902,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -16886,6 +16913,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -17087,17 +17121,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -18171,17 +18205,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -19794,17 +19828,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -20150,17 +20184,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -21525,56 +21559,28 @@
     {
       "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1243,
+      "offset": 1265,
       "length": 8,
       "value": "\"device\""
     },
     {
       "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
+      "offset": 5219,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4237,
+      "offset": 5487,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4478,
-      "length": 8,
-      "value": "\"active\""
-    },
-    {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 4717,
-      "length": 8,
-      "value": "\"active\""
-    },
-    {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 5062,
-      "length": 8,
-      "value": "\"active\""
-    },
-    {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 5341,
-      "length": 8,
-      "value": "\"active\""
-    },
-    {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 5663,
+      "offset": 5728,
       "length": 8,
       "value": "\"active\""
     },
@@ -21588,7 +21594,35 @@
     {
       "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6218,
+      "offset": 6312,
+      "length": 8,
+      "value": "\"active\""
+    },
+    {
+      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 6591,
+      "length": 8,
+      "value": "\"active\""
+    },
+    {
+      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 6913,
+      "length": 8,
+      "value": "\"active\""
+    },
+    {
+      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 7217,
+      "length": 8,
+      "value": "\"active\""
+    },
+    {
+      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 7468,
       "length": 8,
       "value": "\"active\""
     },
@@ -22029,35 +22063,35 @@
     {
       "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 10840,
+      "offset": 10871,
       "length": 19,
       "value": "\"AP_STATS_SESSIONS\""
     },
     {
       "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 10886,
+      "offset": 10917,
       "length": 15,
       "value": "\"AP_STATS_KPIS\""
     },
     {
       "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 10936,
+      "offset": 10967,
       "length": 18,
       "value": "\"AP_DURATION_KPIS\""
     },
     {
       "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 10985,
+      "offset": 11016,
       "length": 19,
       "value": "\"AP_STATS_REQUESTS\""
     },
     {
       "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
-      "offset": 11044,
+      "offset": 11075,
       "length": 16,
       "value": "\"AP_STATS_PUSHS\""
     },
