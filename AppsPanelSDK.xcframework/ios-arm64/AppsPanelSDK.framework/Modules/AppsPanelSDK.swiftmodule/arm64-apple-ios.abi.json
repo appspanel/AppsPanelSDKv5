@@ -235,13 +235,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_AnyDecodable",
-            "printedName": "_AnyDecodable",
-            "usr": "s:12AppsPanelSDK13_AnyDecodableP",
-            "mangledName": "$s12AppsPanelSDK13_AnyDecodableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -249,24 +242,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -277,10 +256,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
+            "name": "_AnyDecodable",
+            "printedName": "_AnyDecodable",
+            "usr": "s:12AppsPanelSDK13_AnyDecodableP",
+            "mangledName": "$s12AppsPanelSDK13_AnyDecodableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -3073,13 +3073,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Response",
-            "printedName": "Response",
-            "usr": "s:12AppsPanelSDK8ResponseP",
-            "mangledName": "$s12AppsPanelSDK8ResponseP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -3091,6 +3084,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Response",
+            "printedName": "Response",
+            "usr": "s:12AppsPanelSDK8ResponseP",
+            "mangledName": "$s12AppsPanelSDK8ResponseP"
           }
         ]
       },
@@ -3344,6 +3344,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3355,13 +3362,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3816,6 +3816,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3827,13 +3834,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4711,6 +4711,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -4722,13 +4729,6 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -4939,6 +4939,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -4950,13 +4957,6 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5079,6 +5079,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5090,13 +5097,6 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5263,6 +5263,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5274,13 +5281,6 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5535,6 +5535,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5546,13 +5553,6 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5675,6 +5675,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5686,13 +5693,6 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5903,6 +5903,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5914,13 +5921,6 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -6043,6 +6043,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -6054,13 +6061,6 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -6227,6 +6227,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -6238,13 +6245,6 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               }
             ]
           }
@@ -6266,6 +6266,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6277,13 +6284,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7378,17 +7378,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Escapable",
                 "printedName": "Escapable",
                 "usr": "s:s9EscapableP",
                 "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               },
               {
                 "kind": "Conformance",
@@ -7644,6 +7644,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7655,13 +7662,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7958,13 +7958,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Response",
-            "printedName": "Response",
-            "usr": "s:12AppsPanelSDK8ResponseP",
-            "mangledName": "$s12AppsPanelSDK8ResponseP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -7976,6 +7969,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Response",
+            "printedName": "Response",
+            "usr": "s:12AppsPanelSDK8ResponseP",
+            "mangledName": "$s12AppsPanelSDK8ResponseP"
           }
         ]
       },
@@ -8097,6 +8097,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8108,13 +8115,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8751,17 +8751,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomStringConvertible",
-                "printedName": "CustomStringConvertible",
-                "usr": "s:s23CustomStringConvertibleP",
-                "mangledName": "$ss23CustomStringConvertibleP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Escapable",
                 "printedName": "Escapable",
                 "usr": "s:s9EscapableP",
                 "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -11882,17 +11882,17 @@
                   },
                   {
                     "kind": "Conformance",
-                    "name": "Equatable",
-                    "printedName": "Equatable",
-                    "usr": "s:SQ",
-                    "mangledName": "$sSQ"
-                  },
-                  {
-                    "kind": "Conformance",
                     "name": "Escapable",
                     "printedName": "Escapable",
                     "usr": "s:s9EscapableP",
                     "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
                   },
                   {
                     "kind": "Conformance",
@@ -11919,17 +11919,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Error",
-                "printedName": "Error",
-                "usr": "s:s5ErrorP",
-                "mangledName": "$ss5ErrorP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Escapable",
                 "printedName": "Escapable",
                 "usr": "s:s9EscapableP",
                 "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
               },
               {
                 "kind": "Conformance",
@@ -12146,17 +12146,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -12328,17 +12328,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
           },
           {
             "kind": "Conformance",
@@ -12564,6 +12564,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -12575,13 +12582,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12830,44 +12830,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "ExpressibleByDictionaryLiteral",
-            "printedName": "ExpressibleByDictionaryLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Key",
-                "printedName": "Key",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Value",
-                "printedName": "Value",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s30ExpressibleByDictionaryLiteralP",
-            "mangledName": "$ss30ExpressibleByDictionaryLiteralP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_AnyEncodable",
+            "printedName": "_AnyEncodable",
+            "usr": "s:12AppsPanelSDK13_AnyEncodableP",
+            "mangledName": "$s12AppsPanelSDK13_AnyEncodableP"
           },
           {
             "kind": "Conformance",
@@ -13052,10 +13025,37 @@
           },
           {
             "kind": "Conformance",
-            "name": "_AnyEncodable",
-            "printedName": "_AnyEncodable",
-            "usr": "s:12AppsPanelSDK13_AnyEncodableP",
-            "mangledName": "$s12AppsPanelSDK13_AnyEncodableP"
+            "name": "ExpressibleByDictionaryLiteral",
+            "printedName": "ExpressibleByDictionaryLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Key",
+                "printedName": "Key",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s30ExpressibleByDictionaryLiteralP",
+            "mangledName": "$ss30ExpressibleByDictionaryLiteralP"
           }
         ]
       },
@@ -13868,13 +13868,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Response",
-            "printedName": "Response",
-            "usr": "s:12AppsPanelSDK8ResponseP",
-            "mangledName": "$s12AppsPanelSDK8ResponseP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -13886,6 +13879,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Response",
+            "printedName": "Response",
+            "usr": "s:12AppsPanelSDK8ResponseP",
+            "mangledName": "$s12AppsPanelSDK8ResponseP"
           }
         ]
       },
@@ -14135,13 +14135,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Response",
-            "printedName": "Response",
-            "usr": "s:12AppsPanelSDK8ResponseP",
-            "mangledName": "$s12AppsPanelSDK8ResponseP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -14153,6 +14146,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Response",
+            "printedName": "Response",
+            "usr": "s:12AppsPanelSDK8ResponseP",
+            "mangledName": "$s12AppsPanelSDK8ResponseP"
           }
         ]
       },
@@ -14530,44 +14530,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "ExpressibleByDictionaryLiteral",
-            "printedName": "ExpressibleByDictionaryLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Key",
-                "printedName": "Key",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Value",
-                "printedName": "Value",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s30ExpressibleByDictionaryLiteralP",
-            "mangledName": "$ss30ExpressibleByDictionaryLiteralP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           },
           {
             "kind": "Conformance",
@@ -14766,10 +14739,37 @@
           },
           {
             "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
+            "name": "ExpressibleByDictionaryLiteral",
+            "printedName": "ExpressibleByDictionaryLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Key",
+                "printedName": "Key",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s30ExpressibleByDictionaryLiteralP",
+            "mangledName": "$ss30ExpressibleByDictionaryLiteralP"
           }
         ]
       },
@@ -16736,17 +16736,17 @@
                   },
                   {
                     "kind": "Conformance",
-                    "name": "Equatable",
-                    "printedName": "Equatable",
-                    "usr": "s:SQ",
-                    "mangledName": "$sSQ"
-                  },
-                  {
-                    "kind": "Conformance",
                     "name": "Escapable",
                     "printedName": "Escapable",
                     "usr": "s:s9EscapableP",
                     "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
                   },
                   {
                     "kind": "Conformance",
@@ -16863,6 +16863,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -16874,13 +16881,6 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               }
             ]
           }
@@ -16902,6 +16902,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -16913,13 +16920,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -17121,17 +17121,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Escapable",
                 "printedName": "Escapable",
                 "usr": "s:s9EscapableP",
                 "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               },
               {
                 "kind": "Conformance",
@@ -18205,17 +18205,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Escapable",
                 "printedName": "Escapable",
                 "usr": "s:s9EscapableP",
                 "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               },
               {
                 "kind": "Conformance",
@@ -19828,17 +19828,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           }
         ]
       },
@@ -20184,17 +20184,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -21067,1428 +21067,1428 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 1399,
       "length": 13,
       "value": "\"buttonColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 1443,
       "length": 12,
       "value": "\"buttonFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 1544,
       "length": 17,
       "value": "\"buttonTextColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 1599,
       "length": 19,
       "value": "\"dialogMessageFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 1715,
       "length": 17,
       "value": "\"dialogTitleFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 1804,
       "length": 21,
       "value": "\"disabledButtonColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 1868,
       "length": 25,
       "value": "\"disabledButtonTextColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 1951,
       "length": 10,
       "value": "\"editFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 2047,
       "length": 17,
       "value": "\"headerTitleFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 2134,
       "length": 19,
       "value": "\"introductionColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 2190,
       "length": 18,
       "value": "\"introductionFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 2284,
       "length": 24,
       "value": "\"primaryBackgroundColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 2340,
       "length": 14,
       "value": "\"primaryColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 2398,
       "length": 26,
       "value": "\"secondaryBackgroundColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 2458,
       "length": 16,
       "value": "\"secondaryColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackStyle.swift",
       "kind": "StringLiteral",
       "offset": 2504,
       "length": 11,
       "value": "\"titleFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
       "kind": "IntegerLiteral",
       "offset": 842,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
       "kind": "BooleanLiteral",
       "offset": 1036,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
       "kind": "IntegerLiteral",
       "offset": 1116,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
       "kind": "IntegerLiteral",
       "offset": 1166,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
       "kind": "IntegerLiteral",
       "offset": 1219,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingThanksView.swift",
       "kind": "IntegerLiteral",
       "offset": 1262,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 939,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
       "kind": "BooleanLiteral",
       "offset": 1133,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1208,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1258,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1311,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 1354,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 19,
       "value": "\"com.appspanel.sdk\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
       "kind": "Dictionary",
       "offset": 1413,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
       "kind": "BooleanLiteral",
       "offset": 1482,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/AppsPanel.swift",
       "kind": "BooleanLiteral",
       "offset": 1567,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/DocumentHelper.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/DocumentHelper.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 25,
       "value": "\"APSDKDefaultSavedValues\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/PushNotificationInfo.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/PushNotificationInfo.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 18,
       "value": "\"AP_PUSH_RECEIVED\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/PushNotificationInfo.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/PushNotificationInfo.swift",
       "kind": "StringLiteral",
       "offset": 381,
       "length": 17,
       "value": "\"AP_PUSH_CLICKED\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/WebViewController.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 431,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/WebViewController.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/WebViewController.swift",
       "kind": "StringLiteral",
       "offset": 619,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/ImageUploadResponse.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/ImageUploadResponse.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 10,
       "value": "\"original\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/ImageUploadResponse.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/ImageUploadResponse.swift",
       "kind": "StringLiteral",
       "offset": 941,
       "length": 7,
       "value": "\"small\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/ImageUploadResponse.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/ImageUploadResponse.swift",
       "kind": "StringLiteral",
       "offset": 974,
       "length": 8,
       "value": "\"medium\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/ImageUploadResponse.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/ImageUploadResponse.swift",
       "kind": "StringLiteral",
       "offset": 1007,
       "length": 7,
       "value": "\"large\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 26,
       "value": "\"application\/octet-stream\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 399,
       "length": 5,
       "value": "\"bin\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 615,
       "length": 5,
       "value": "\"jpg\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 672,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 700,
       "length": 5,
       "value": "\"png\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 757,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 785,
       "length": 5,
       "value": "\"gif\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 843,
       "length": 12,
       "value": "\"image\/tiff\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 872,
       "length": 6,
       "value": "\"tiff\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 930,
       "length": 17,
       "value": "\"application\/pdf\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 964,
       "length": 5,
       "value": "\"pdf\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 1021,
       "length": 17,
       "value": "\"application\/zip\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 1055,
       "length": 5,
       "value": "\"zip\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 13,
       "value": "\"audio\/mpeg3\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "StringLiteral",
       "offset": 1142,
       "length": 5,
       "value": "\"mp3\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "Array",
       "offset": 1870,
       "length": 18,
       "value": "[0xFF, 0xD8, 0xFF]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "Array",
       "offset": 1945,
       "length": 48,
       "value": "[0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "Array",
       "offset": 2019,
       "length": 36,
       "value": "[0x47, 0x49, 0x46, 0x38, 0x37, 0x61]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "Array",
       "offset": 2093,
       "length": 36,
       "value": "[0x47, 0x49, 0x46, 0x38, 0x39, 0x61]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "Array",
       "offset": 2167,
       "length": 18,
       "value": "[0x49, 0x20, 0x49]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "Array",
       "offset": 2242,
       "length": 24,
       "value": "[0x49, 0x49, 0x2A, 0x00]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "Array",
       "offset": 2317,
       "length": 24,
       "value": "[0x4D, 0x4D, 0x00, 0x2A]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "Array",
       "offset": 2392,
       "length": 30,
       "value": "[0x25, 0x50, 0x44, 0x46, 0x2D]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FileType.swift",
       "kind": "Array",
       "offset": 2466,
       "length": 18,
       "value": "[0x49, 0x44, 0x33]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceIdentifier.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceIdentifier.swift",
       "kind": "BooleanLiteral",
       "offset": 874,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextCollection.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextCollection.swift",
       "kind": "StringLiteral",
       "offset": 754,
       "length": 8,
       "value": "\"locale\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextCollection.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextCollection.swift",
       "kind": "StringLiteral",
       "offset": 792,
       "length": 7,
       "value": "\"asked\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceInfo.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceInfo.swift",
       "kind": "StringLiteral",
       "offset": 2122,
       "length": 7,
       "value": "\"appId\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1265,
       "length": 8,
       "value": "\"device\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 5219,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 5487,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 5728,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 5967,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 6312,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 6591,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 6913,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 7217,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 7468,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/APDurationKpi.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/APDurationKpi.swift",
       "kind": "StringLiteral",
       "offset": 712,
       "length": 11,
       "value": "\"sessionId\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
       "kind": "BooleanLiteral",
       "offset": 305,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
       "kind": "StringLiteral",
       "offset": 482,
       "length": 6,
       "value": "\"link\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 13,
       "value": "\"killOnClick\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 16,
       "value": "\"buttonKillText\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Dialog\/Dialog.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 20,
       "value": "\"buttonRedirectText\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Cancellable.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Cancellable.swift",
       "kind": "BooleanLiteral",
       "offset": 483,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Cancellable.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Cancellable.swift",
       "kind": "IntegerLiteral",
       "offset": 538,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Cancellable.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Cancellable.swift",
       "kind": "BooleanLiteral",
       "offset": 897,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextView.swift",
       "kind": "IntegerLiteral",
       "offset": 208,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextView.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextView.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextView.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackUIConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 729,
       "length": 8,
       "value": "\"design\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceInfoStore.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceInfoStore.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 38,
       "value": "\"DeviceInfoLatestSentDeviceIdentifier\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceInfoStore.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceInfoStore.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 39,
       "value": "\"DeviceInfoLatestSuccessfulSendingDate\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextManagerStorage.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextManagerStorage.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 27,
       "value": "\"TextManagerForcedLanguage\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
       "kind": "BooleanLiteral",
       "offset": 304,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
       "kind": "BooleanLiteral",
       "offset": 415,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
       "kind": "Array",
       "offset": 607,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 670,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 675,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 732,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 737,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 795,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 800,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/KPI.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/KPI.swift",
       "kind": "StringLiteral",
       "offset": 815,
       "length": 11,
       "value": "\"sessionId\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/KPI.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/KPI.swift",
       "kind": "StringLiteral",
       "offset": 851,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingPropositionView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingPropositionView.swift",
       "kind": "IntegerLiteral",
       "offset": 395,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
       "kind": "StringLiteral",
       "offset": 434,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 20,
       "value": "\"portraitPictureUrl\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
       "kind": "StringLiteral",
       "offset": 531,
       "length": 21,
       "value": "\"landscapePictureUrl\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 13,
       "value": "\"redirectUrl\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
       "kind": "StringLiteral",
       "offset": 620,
       "length": 12,
       "value": "\"webviewUrl\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/Interstitial.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 9,
       "value": "\"webview\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/ImageUpload.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/ImageUpload.swift",
       "kind": "StringLiteral",
       "offset": 913,
       "length": 3,
       "value": "\"x\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Security\/JSONWebToken.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Security\/JSONWebToken.swift",
       "kind": "StringLiteral",
       "offset": 1015,
       "length": 5,
       "value": "\"exp\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Security\/JSONWebToken.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Security\/JSONWebToken.swift",
       "kind": "StringLiteral",
       "offset": 1061,
       "length": 9,
       "value": "\"appname\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Security\/JSONWebToken.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Security\/JSONWebToken.swift",
       "kind": "StringLiteral",
       "offset": 1096,
       "length": 8,
       "value": "\"utoken\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Security\/JSONWebToken.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Security\/JSONWebToken.swift",
       "kind": "StringLiteral",
       "offset": 1545,
       "length": 18,
       "value": "\"secure_parameter\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Security\/JSONWebToken.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Security\/JSONWebToken.swift",
       "kind": "StringLiteral",
       "offset": 1599,
       "length": 15,
       "value": "\"secure_answer\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceInfoManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceInfoManager.swift",
       "kind": "IntegerLiteral",
       "offset": 530,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackForm.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Models\/FeedbackForm.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 12,
       "value": "\"categoryId\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2120,
       "length": 13,
       "value": "\"starOnColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2165,
       "length": 14,
       "value": "\"starOffColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2241,
       "length": 18,
       "value": "\"dialogTitleColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2295,
       "length": 17,
       "value": "\"dialogTitleFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2384,
       "length": 21,
       "value": "\"ratingCriteriaColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2444,
       "length": 20,
       "value": "\"ratingCriteriaFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2557,
       "length": 12,
       "value": "\"buttonFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2635,
       "length": 20,
       "value": "\"primaryButtonColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2697,
       "length": 24,
       "value": "\"primaryButtonTextColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2760,
       "length": 21,
       "value": "\"disabledButtonColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2824,
       "length": 25,
       "value": "\"disabledButtonTextColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2889,
       "length": 22,
       "value": "\"secondaryButtonColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 2955,
       "length": 26,
       "value": "\"secondaryButtonTextColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 3019,
       "length": 20,
       "value": "\"dialogMessageColor\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingStyle.swift",
       "kind": "StringLiteral",
       "offset": 3077,
       "length": 19,
       "value": "\"dialogMessageFont\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingCriterionScore.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingCriterionScore.swift",
       "kind": "StringLiteral",
       "offset": 305,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
       "offset": 342,
       "length": 31,
       "value": "\"com.appspanel.sdk.stats-queue\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "Dictionary",
       "offset": 1613,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "BooleanLiteral",
       "offset": 6592,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
       "offset": 10871,
       "length": 19,
       "value": "\"AP_STATS_SESSIONS\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
       "offset": 10917,
       "length": 15,
       "value": "\"AP_STATS_KPIS\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
       "offset": 10967,
       "length": 18,
       "value": "\"AP_DURATION_KPIS\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
       "offset": 11016,
       "length": 19,
       "value": "\"AP_STATS_REQUESTS\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/StatsManager.swift",
       "kind": "StringLiteral",
       "offset": 11075,
       "length": 16,
       "value": "\"AP_STATS_PUSHS\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/Stats.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/Stats.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 8,
       "value": "\"pushes\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/AuthenticationTokenManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/AuthenticationTokenManager.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 9,
       "value": "\"APToken\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingUIConfiguration.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Models\/RatingUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 759,
       "length": 8,
       "value": "\"design\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextManager.swift",
       "kind": "Dictionary",
       "offset": 1756,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2984,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/TextManager\/TextManager.swift",
       "kind": "StringLiteral",
       "offset": 4646,
       "length": 15,
       "value": "\"##([A-Z_]+)##\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingViewController.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingViewController.swift",
       "kind": "Dictionary",
       "offset": 420,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/ImageInterstitialViewController.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/ImageInterstitialViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 458,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/ImageInterstitialViewController.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Intertitial\/ImageInterstitialViewController.swift",
       "kind": "StringLiteral",
       "offset": 770,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FormData.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/Upload\/FormData.swift",
       "kind": "StringLiteral",
       "offset": 581,
       "length": 6,
       "value": "\"file\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextField.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 209,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextField.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextField.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 231,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextField.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 242,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextField.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackTextField.swift",
       "kind": "IntegerLiteral",
       "offset": 449,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/Session.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/Session.swift",
       "kind": "StringLiteral",
       "offset": 679,
       "length": 7,
       "value": "\"start\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/Session.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Stats\/Session.swift",
       "kind": "StringLiteral",
       "offset": 710,
       "length": 5,
       "value": "\"end\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationLegacyUserInfo.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationLegacyUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 1648,
       "length": 7,
       "value": "\"datas\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationLegacyUserInfo.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationLegacyUserInfo.swift",
       "kind": "StringLiteral",
       "offset": 1761,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
       "kind": "IntegerLiteral",
       "offset": 767,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
       "kind": "BooleanLiteral",
       "offset": 961,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
       "kind": "IntegerLiteral",
       "offset": 1041,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
       "kind": "IntegerLiteral",
       "offset": 1091,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
       "kind": "IntegerLiteral",
       "offset": 1144,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/FeedbackThanksView.swift",
       "kind": "IntegerLiteral",
       "offset": 1187,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
       "kind": "StringLiteral",
       "offset": 316,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
       "kind": "StringLiteral",
       "offset": 338,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Requests\/RequestManager.swift",
       "kind": "BooleanLiteral",
       "offset": 624,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/RatingStore.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/RatingStore.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 30,
       "value": "\"LatestRatingShowingTimestamp\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/RatingStore.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/RatingStore.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 40,
       "value": "\"NumberOfLaunchesSinceLastRatingShowing\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationStorage.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationStorage.swift",
       "kind": "StringLiteral",
       "offset": 274,
       "length": 29,
       "value": "\"PushNotificationDeviceToken\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationStorage.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationStorage.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 28,
       "value": "\"PushNotificationAuthorized\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationStorage.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationStorage.swift",
       "kind": "StringLiteral",
       "offset": 414,
       "length": 45,
       "value": "\"PushNotificationLatestSuccessfulSendingDate\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationStorage.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/PushNotification\/PushNotificationStorage.swift",
       "kind": "StringLiteral",
       "offset": 509,
       "length": 45,
       "value": "\"PushNotificationPreviousAuthorizationStatus\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingStarsView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingStarsView.swift",
       "kind": "BooleanLiteral",
       "offset": 444,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingStarsView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Rating\/Views\/RatingStarsView.swift",
       "kind": "Array",
       "offset": 539,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
       "kind": "IntegerLiteral",
       "offset": 440,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
       "kind": "IntegerLiteral",
       "offset": 682,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
       "kind": "IntegerLiteral",
       "offset": 859,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
       "kind": "IntegerLiteral",
       "offset": 973,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
       "kind": "BooleanLiteral",
       "offset": 1162,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Feedback\/Views\/FeedbackView.swift",
       "kind": "StringLiteral",
       "offset": 1577,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Logger\/DatadogLogger.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Logger\/DatadogLogger.swift",
       "kind": "StringLiteral",
       "offset": 926,
       "length": 12,
       "value": "\"device_uid\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Logger\/DatadogLogger.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Logger\/DatadogLogger.swift",
       "kind": "StringLiteral",
       "offset": 1033,
       "length": 12,
       "value": "\"device_uid\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceIdentifierStore.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceIdentifierStore.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 13,
       "value": "\"APDeviceUID\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceIdentifierStore.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceIdentifierStore.swift",
       "kind": "StringLiteral",
       "offset": 343,
       "length": 19,
       "value": "\"APDeviceUIDLegacy\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceIdentifierStore.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Device\/DeviceIdentifierStore.swift",
       "kind": "BooleanLiteral",
       "offset": 561,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/UserDefaults.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/UserDefaults.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 14,
       "value": "\"AppsPanelSDK\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/TimeIntervalExtensions.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/TimeIntervalExtensions.swift",
       "kind": "IntegerLiteral",
       "offset": 512,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/TimeIntervalExtensions.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/TimeIntervalExtensions.swift",
       "kind": "IntegerLiteral",
       "offset": 528,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfigurationManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfigurationManager.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 26,
       "value": "\"RemoteConfiguration.json\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfigurationManager.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/RemoteConfiguration\/RemoteConfigurationManager.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 33,
       "value": "\"DefaultRemoteConfiguration.json\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/Keychain.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/Keychain.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 32,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/matteo-m-apnl\/code\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/Keychain.swift",
+      "filePath": "\/Users\/theocauffour\/Documents\/Projects\/sdkmobile-core-ios\/AppsPanelSDK\/Utils\/Keychain.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 1,

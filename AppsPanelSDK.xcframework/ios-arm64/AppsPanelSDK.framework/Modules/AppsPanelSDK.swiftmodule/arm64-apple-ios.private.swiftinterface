@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
-// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AppsPanelSDK
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AppsPanelSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import Alamofire
 @_exported import AppsPanelSDK
 import CommonCrypto
@@ -23,12 +23,16 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public struct AnyDecodable : Swift.Decodable {
   public let value: Any
+  #if compiler(>=5.3) && $NonescapableTypes
   public init<T>(_ value: T?)
+  #endif
 }
 @usableFromInline
 internal protocol _AnyDecodable {
   var value: Any { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   init<T>(_ value: T?)
+  #endif
 }
 extension AppsPanelSDK.AnyDecodable : AppsPanelSDK._AnyDecodable {
 }
@@ -56,7 +60,9 @@ extension AppsPanelSDK.AnyDecodable : Swift.CustomDebugStringConvertible {
   public func registerForPushNotifications(application: UIKit.UIApplication)
   @available(iOS 10.0, *)
   public func registerForPushNotifications(application: UIKit.UIApplication) async -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func checkReceivedNotification(launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?, state: UIKit.UIApplication.State)
+  #endif
   @available(iOS 10.0, *)
   public func manageNotification(_ notification: UserNotifications.UNNotification, show: Swift.Bool, state: UIKit.UIApplication.State, completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   public func sendStatistic(notification: AppsPanelSDK.PushNotificationUserInfo)
@@ -73,17 +79,21 @@ extension AppsPanelSDK.AnyDecodable : Swift.CustomDebugStringConvertible {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var customHeaders: AppsPanelSDK.Headers? {
     get
     set
   }
+  #endif
   public var configuration: AppsPanelSDK.AppsPanel.Configuration {
     get
   }
   public var remoteConfiguration: AppsPanelSDK.RemoteConfiguration? {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func configure(withAppName appName: Swift.String, appKey: Swift.String, privateKey: Swift.String, baseURL: Foundation.URL? = nil, sdkBaseURL: Foundation.URL? = nil, appGroupIdentifier: Swift.String? = nil) throws
+  #endif
   public func startSession() throws
   @objc deinit
 }
@@ -95,29 +105,41 @@ extension AppsPanelSDK.AppsPanelDelegate {
 }
 extension AppsPanelSDK.AppsPanel {
   public func registerAPIConfiguration(named name: Swift.String, config: AppsPanelSDK.APIConfig)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getAPIConfiguration(named name: Swift.String) -> AppsPanelSDK.APIConfig?
+  #endif
 }
 @_hasMissingDesignatedInitializers public class DocumentHelper {
   public static func getPathFor(filename: Swift.String) -> Swift.String
   public static func write(value: Any, forKey key: Swift.String)
   public static func write(value: Any, key: Swift.String, plistName: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func readValue(forKey key: Swift.String) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func readValueForKey(_ key: Swift.String, plistName: Swift.String) -> Any?
+  #endif
   @objc deinit
 }
 public struct FileUpload {
   public let file: AppsPanelSDK.File
   public let entity: AppsPanelSDK.UploadEntity?
   public var timeout: Foundation.TimeInterval?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(file: AppsPanelSDK.File, entity: AppsPanelSDK.UploadEntity? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(data: Foundation.Data, entity: AppsPanelSDK.UploadEntity? = nil)
+  #endif
 }
 extension AppsPanelSDK.Stats {
   public struct PushNotificationEvent : Swift.Codable {
     public enum Action : Swift.String, Swift.Codable {
       case received
       case clicked
+      #if compiler(>=5.3) && $NonescapableTypes
       public init?(rawValue: Swift.String)
+      #endif
       public typealias RawValue = Swift.String
       public var rawValue: Swift.String {
         get
@@ -163,9 +185,11 @@ public struct TextCollection : Swift.Codable {
   public let texts: AppsPanelSDK.TextCollection.LocalizedTexts
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(key: Swift.String) -> Swift.String? {
     get
   }
+  #endif
 }
 public struct RemoteConfiguration : Swift.Codable {
   public let appName: Swift.String
@@ -280,7 +304,9 @@ public struct PushNotificationUserInfo : Swift.Codable {
     case apnl
     case other
     public init(from decoder: any Swift.Decoder) throws
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -293,7 +319,9 @@ public struct PushNotificationUserInfo : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension AppsPanelSDK.PushNotificationUserInfo {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func extractAttachment() -> UserNotifications.UNNotificationAttachment?
+  #endif
 }
 extension AppsPanelSDK.AppsPanel {
   public struct Configuration {
@@ -322,8 +350,12 @@ public struct ImageUpload {
   public let entity: AppsPanelSDK.UploadEntity?
   public let options: AppsPanelSDK.ImageUpload.Options?
   public var timeout: Foundation.TimeInterval?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(file: AppsPanelSDK.File, entity: AppsPanelSDK.UploadEntity? = nil, options: AppsPanelSDK.ImageUpload.Options? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(data: Foundation.Data, entity: AppsPanelSDK.UploadEntity? = nil, options: AppsPanelSDK.ImageUpload.Options? = nil)
+  #endif
 }
 extension AppsPanelSDK.ImageUpload {
   public struct Size : Swift.CustomStringConvertible, Swift.LosslessStringConvertible {
@@ -333,7 +365,9 @@ extension AppsPanelSDK.ImageUpload {
     public var description: Swift.String {
       get
     }
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(_ description: Swift.String)
+    #endif
   }
 }
 extension AppsPanelSDK.ImageUpload {
@@ -341,7 +375,9 @@ extension AppsPanelSDK.ImageUpload {
     public let smallSize: AppsPanelSDK.ImageUpload.Size?
     public let mediumSize: AppsPanelSDK.ImageUpload.Size?
     public let largeSize: AppsPanelSDK.ImageUpload.Size?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(smallSize: AppsPanelSDK.ImageUpload.Size? = nil, mediumSize: AppsPanelSDK.ImageUpload.Size? = nil, largeSize: AppsPanelSDK.ImageUpload.Size? = nil)
+    #endif
   }
 }
 public typealias DownloadProgressHandler = (Foundation.Progress) -> Swift.Void
@@ -411,7 +447,9 @@ public struct RequestError : Swift.Error {
   public let data: Foundation.Data?
   public let cause: AppsPanelSDK.RequestError.Cause
   public let backendInfo: AppsPanelSDK.BackendErrorInfo?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(request: Foundation.URLRequest?, response: Foundation.HTTPURLResponse?, data: Foundation.Data?, cause: AppsPanelSDK.RequestError.Cause)
+  #endif
 }
 extension AppsPanelSDK.RequestError {
   public enum Cause : Swift.Error {
@@ -467,12 +505,16 @@ public struct BackendErrorInfo : Swift.Codable {
 }
 public struct AnyEncodable : Swift.Encodable {
   public let value: Any
+  #if compiler(>=5.3) && $NonescapableTypes
   public init<T>(_ value: T?)
+  #endif
 }
 @usableFromInline
 internal protocol _AnyEncodable {
   var value: Any { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   init<T>(_ value: T?)
+  #endif
 }
 extension AppsPanelSDK.AnyEncodable : AppsPanelSDK._AnyEncodable {
 }
@@ -551,7 +593,9 @@ public struct ObjectResponse<T> : AppsPanelSDK.Response where T : Swift.Decodabl
 }
 public struct AnyCodable : Swift.Codable {
   public let value: Any
+  #if compiler(>=5.3) && $NonescapableTypes
   public init<T>(_ value: T?)
+  #endif
 }
 extension AppsPanelSDK.AnyCodable : AppsPanelSDK._AnyEncodable, AppsPanelSDK._AnyDecodable {
 }
@@ -594,7 +638,9 @@ extension AppsPanelSDK.AnyCodable : Swift.ExpressibleByDictionaryLiteral {
 public struct UploadEntity {
   public let name: Swift.String
   public let id: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(name: Swift.String, id: Swift.String? = nil)
+  #endif
 }
 @_hasMissingDesignatedInitializers public class FeedbackManager {
   public static let shared: AppsPanelSDK.FeedbackManager
@@ -610,41 +656,65 @@ public struct File {
   public let data: Foundation.Data
   public let mimeType: Swift.String
   public let fileName: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(data: Foundation.Data, mimeType: Swift.String? = nil, fileName: Swift.String? = nil)
+  #endif
 }
 public protocol Endpoint {
   var path: Swift.String { get }
   var httpMethod: AppsPanelSDK.HTTPMethod { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var parameters: AppsPanelSDK.Parameters? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var body: AppsPanelSDK.Parameters? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var headers: AppsPanelSDK.Headers? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var secureData: Foundation.Data? { get }
+  #endif
   var securityOptions: AppsPanelSDK.Security.Options { get }
 }
 extension AppsPanelSDK.Endpoint {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var parameters: AppsPanelSDK.Parameters? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var body: AppsPanelSDK.Parameters? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var headers: AppsPanelSDK.Headers? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var secureData: Foundation.Data? {
     get
   }
+  #endif
   public var securityOptions: AppsPanelSDK.Security.Options {
     get
   }
 }
 @_hasMissingDesignatedInitializers public class StatsManager {
   public static let shared: AppsPanelSDK.StatsManager
+  #if compiler(>=5.3) && $NonescapableTypes
   public func startDurationKpi(tag: Swift.String, context: AppsPanelSDK.Stats.Context? = nil)
+  #endif
   public func endDurationKpi(tag: Swift.String)
   public func endAllDurationKpis()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func logEvent(_ tag: Swift.String, context: AppsPanelSDK.Stats.Context? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func logView(_ tag: Swift.String, context: AppsPanelSDK.Stats.Context? = nil)
+  #endif
   @objc deinit
 }
 public struct Stats : Swift.Codable {
@@ -660,7 +730,9 @@ public struct AuthenticationTokenManager {
       get
     }
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func token() -> Swift.String?
+  #endif
   public static func saveToken(_ token: Swift.String) throws
   public static func deleteToken()
 }
@@ -670,20 +742,26 @@ public struct AuthenticationTokenManager {
   public var language: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var forcedLanguage: Swift.String? {
     get
   }
+  #endif
   @available(*, deprecated, message: "Use language property instead")
   public var currentLocale: Foundation.Locale {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated)
   public var defaultLocale: Foundation.Locale? {
     get
   }
+  #endif
   public var texts: [AppsPanelSDK.TextCollection.Key : Swift.String]
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Use forceLanguage(_:) instead")
   public func setLocale(_ locale: Foundation.Locale, default defaultLocale: Foundation.Locale? = nil)
+  #endif
   public func forceLanguage(_ language: Swift.String)
   public func resetLanguage()
   public func string(forKey key: Swift.String) -> Swift.String
@@ -729,17 +807,31 @@ public struct APIConfig {
 public class Logger {
   public init()
   public static func configure(environment: Swift.String, clientToken: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public var deviceIdentifier: Swift.String? {
     get
     set
   }
+  #endif
   public typealias Attributes = [Swift.String : any Swift.Encodable]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func debug(_ message: Swift.String, attributes: AppsPanelSDK.Logger.Attributes? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func info(_ message: Swift.String, attributes: AppsPanelSDK.Logger.Attributes? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func notice(_ message: Swift.String, attributes: AppsPanelSDK.Logger.Attributes? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func warn(_ message: Swift.String, attributes: AppsPanelSDK.Logger.Attributes? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func error(_ message: Swift.String, attributes: AppsPanelSDK.Logger.Attributes? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func critical(_ message: Swift.String, attributes: AppsPanelSDK.Logger.Attributes? = nil)
+  #endif
   public func add(tag: Swift.String)
   public func addTag(withKey key: Swift.String, value: Swift.String)
   public func remove(tag: Swift.String)
@@ -759,7 +851,9 @@ public enum HTTPMethod : Swift.String, Swift.Codable {
   case patch
   case put
   case delete
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -772,18 +866,28 @@ public class RequestManager {
     get
   }
   public init(baseURL: Foundation.URL)
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public func request(_ path: Swift.String, method: AppsPanelSDK.HTTPMethod, parameters: AppsPanelSDK.Parameters? = nil) -> AppsPanelSDK.DataRequest
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public func upload(_ fileUpload: AppsPanelSDK.FileUpload, completion completionHandler: @escaping AppsPanelSDK.FileUploadCompletionHandler) -> Foundation.URLSessionTask?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public func upload(_ imageUpload: AppsPanelSDK.ImageUpload, completion completionHandler: @escaping AppsPanelSDK.ImageUploadCompletionHandler) -> Foundation.URLSessionTask?
+  #endif
   @objc deinit
 }
 extension AppsPanelSDK.RequestManager {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func manager(forConfigNamed configName: Swift.String) -> AppsPanelSDK.RequestManager?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public func requestWithConfig(_ path: Swift.String, method: AppsPanelSDK.HTTPMethod, parameters: AppsPanelSDK.Parameters? = nil, configName: Swift.String) -> AppsPanelSDK.DataRequest?
+  #endif
 }
 @_hasMissingDesignatedInitializers final public class VersionManager {
   public static let shared: AppsPanelSDK.VersionManager
